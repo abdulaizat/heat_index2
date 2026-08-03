@@ -1,0 +1,29 @@
+2026-01-25 21:31:43,005 [INFO] ============================================================
+2026-01-25 21:31:43,006 [INFO]        GPM IMERG FORENSIC AUDIT V2 (AUTO-DISCOVERY)       
+2026-01-25 21:31:43,006 [INFO] ============================================================
+2026-01-25 21:31:43,239 [INFO] Inspecting sample file structure: 3B-HHR.MS.MRG.3IMERG.20250115-S010000-E012959.0060.V07B.HDF5
+2026-01-25 21:31:43,240 [WARNING]   -> Standard path not found. Searching recursively...
+2026-01-25 21:31:43,626 [ERROR]   -> CRITICAL: 'precipitationCal' NOT FOUND. Available keys:
+2026-01-25 21:31:43,626 [ERROR]      - Grid
+2026-01-25 21:31:43,626 [ERROR]      - Grid/Intermediate
+2026-01-25 21:31:43,626 [ERROR]      - Grid/Intermediate/IRinfluence
+2026-01-25 21:31:43,627 [ERROR]      - Grid/Intermediate/IRprecipitation
+2026-01-25 21:31:43,627 [ERROR]      - Grid/Intermediate/MWobservationTime
+2026-01-25 21:31:43,627 [ERROR]      - Grid/Intermediate/MWprecipSource
+2026-01-25 21:31:43,627 [ERROR]      - Grid/Intermediate/MWprecipitation
+2026-01-25 21:31:43,627 [ERROR]      - Grid/Intermediate/precipitationUncal
+2026-01-25 21:31:43,627 [ERROR]      - Grid/lat
+2026-01-25 21:31:43,627 [ERROR]      - Grid/lat_bnds
+2026-01-25 21:31:43,627 [ERROR]      - Grid/latv
+2026-01-25 21:31:43,627 [ERROR]      - Grid/lon
+2026-01-25 21:31:43,627 [ERROR]      - Grid/lon_bnds
+2026-01-25 21:31:43,627 [ERROR]      - Grid/lonv
+2026-01-25 21:31:43,627 [ERROR]      - Grid/nv
+2026-01-25 21:31:43,627 [ERROR]      - Grid/precipitation
+2026-01-25 21:31:43,627 [ERROR]      - Grid/precipitationQualityIndex
+2026-01-25 21:31:43,627 [ERROR]      - Grid/probabilityLiquidPrecipitation
+2026-01-25 21:31:43,627 [ERROR]      - Grid/randomError
+2026-01-25 21:31:43,627 [ERROR]      - Grid/time
+2026-01-25 21:31:43,627 [ERROR]      - Grid/time_bnds
+2026-01-25 21:31:43,628 [ERROR] CRITICAL: Could not find 'precipitationCal' in sample file.
+2026-01-25 21:31:43,628 [ERROR] Please verify the downloaded product is correct (GPM_3IMERGHH).

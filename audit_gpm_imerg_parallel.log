@@ -1,0 +1,24 @@
+nohup: ignoring input
+2026-03-13 06:22:51,054 [INFO] ============================================================
+2026-03-13 06:22:51,054 [INFO]        GPM IMERG FORENSIC AUDIT V3 (V07B ADAPTED)       
+2026-03-13 06:22:51,054 [INFO] ============================================================
+2026-03-13 06:22:51,054 [INFO] Base Dir: /mnt/AizatDrive/gpm_imerg_precipitation_final_run/2024
+2026-03-13 06:22:51,054 [INFO] Audit Window: 2024-01-01 to 2024-12-31
+2026-03-13 06:22:51,330 [INFO] Inspecting sample file: 3B-HHR.MS.MRG.3IMERG.20240101-S003000-E005959.0030.V07B.HDF5
+2026-03-13 06:22:51,331 [INFO]   -> MATCH: Found variable at 'Grid/precipitation'
+2026-03-13 06:22:51,331 [INFO] Using Target Variable: 'Grid/precipitation'
+2026-03-13 06:22:51,332 [INFO] Workers: 3
+2026-03-13 06:22:51,371 [INFO] Audit Scope: 17568 slots
+2026-03-13 06:22:51,371 [INFO] Starting Parallel Scan...
+Progress: 0/17568 (0.0%)Progress: 1000/17568 (5.7%)Progress: 2000/17568 (11.4%)Progress: 3000/17568 (17.1%)Progress: 4000/17568 (22.8%)Progress: 5000/17568 (28.5%)Progress: 6000/17568 (34.2%)Progress: 7000/17568 (39.8%)Progress: 8000/17568 (45.5%)Progress: 9000/17568 (51.2%)Progress: 10000/17568 (56.9%)Progress: 11000/17568 (62.6%)Progress: 12000/17568 (68.3%)Progress: 13000/17568 (74.0%)Progress: 14000/17568 (79.7%)Progress: 15000/17568 (85.4%)Progress: 16000/17568 (91.1%)Progress: 17000/17568 (96.8%)Progress: 17568/17568 (100.0%)
+2026-03-13 06:59:40,841 [INFO] 
+============================================================
+2026-03-13 06:59:40,842 [INFO]              FINAL INTEGRITY REPORT                 
+2026-03-13 06:59:40,842 [INFO] ============================================================
+2026-03-13 06:59:40,842 [INFO] Total Scanned:   17568
+2026-03-13 06:59:40,842 [INFO] ----------------------------------------
+2026-03-13 06:59:40,842 [INFO] ✅ OK:             17568
+2026-03-13 06:59:40,842 [INFO] ❌ MISSING:        0
+2026-03-13 06:59:40,842 [INFO] 💀 CORRUPT:        0
+2026-03-13 06:59:40,842 [INFO] ============================================================
+2026-03-13 06:59:41,022 [INFO] Report saved: gpm_imerg_audit_report_2024.csv

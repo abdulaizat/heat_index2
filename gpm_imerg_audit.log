@@ -1,0 +1,25 @@
+2026-01-25 21:12:26,324 [INFO] ============================================================
+2026-01-25 21:12:26,324 [INFO]        GPM IMERG MAX INTEGRITY AUDIT PROTOCOL       
+2026-01-25 21:12:26,324 [INFO] ============================================================
+2026-01-25 21:12:26,324 [INFO] Architecture:   Intel Xeon Gold 5115 (Optimized for 20 threads)
+2026-01-25 21:12:26,325 [INFO] Target Dir:     /mnt/AizatDrive/gpm_imerg_precipitationCal
+2026-01-25 21:12:26,325 [INFO] Audit Range:    2025-01-01 to 2025-12-31
+2026-01-25 21:12:26,325 [INFO] Check Type:     Deep HDF5 Inspection + Data Validation
+2026-01-25 21:12:26,325 [INFO] Workers:        16
+2026-01-25 21:12:26,342 [INFO] Total Files Expected: 17520
+2026-01-25 21:12:26,342 [INFO] ------------------------------------------------------------
+2026-01-25 21:12:31,760 [INFO] Scanning Complete. Aggregating Statistics...
+2026-01-25 21:12:31,804 [INFO] ============================================================
+2026-01-25 21:12:31,805 [INFO]              AUDIT SUMMARY REPORT                   
+2026-01-25 21:12:31,805 [INFO] ============================================================
+2026-01-25 21:12:31,805 [INFO] Total Slots:     17520
+2026-01-25 21:12:31,805 [INFO] Files Found:     0
+2026-01-25 21:12:31,805 [INFO] ----------------------------------------
+2026-01-25 21:12:31,805 [INFO] PASS (Integrity): 0 (0.00%)
+2026-01-25 21:12:31,805 [INFO] FAIL (Missing):   17520
+2026-01-25 21:12:31,805 [INFO] FAIL (Corrupt):   0
+2026-01-25 21:12:31,805 [INFO] FAIL (Bad HDF5):  0
+2026-01-25 21:12:31,805 [INFO] FAIL (Bad Data):  0
+2026-01-25 21:12:31,805 [INFO] ============================================================
+2026-01-25 21:12:31,861 [INFO] Detailed CSV Report saved to: /home/NWP5/heat_index2/gpm_imerg_audit_report.csv
+2026-01-25 21:12:31,861 [WARNING] WARNING: Files are missing, but existing files are healthy.

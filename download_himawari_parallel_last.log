@@ -1,0 +1,6 @@
+nohup: ignoring input
+--- OMEGA DOWNLOADER (V10) ---
+Tasks: 24
+Workers: 8 (Recycle every 10 tasks)
+[1/24] 2024-12-31 05:00 -> AWS: Exists | JAXA: Exists
+[21/24] 2024-12-31 00:00 -> AWS: Exists | JAXA: Exists

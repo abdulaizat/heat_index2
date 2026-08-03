@@ -1,0 +1,9 @@
+2026-01-23 03:03:21,616 - INFO - [MainProcess] - Authenticating with Earthdata to fetch source-of-truth metadata...
+2026-01-23 03:03:22,717 - INFO - [MainProcess] - You're now authenticated with NASA Earthdata Login
+2026-01-23 03:03:27,734 - INFO - [MainProcess] - Querying NASA CMR for MYD11A1 granules (2020-01-01 to 2024-12-31)...
+2026-01-23 03:03:28,560 - INFO - [MainProcess] - Granules found: 5679
+2026-01-23 03:03:45,114 - INFO - [MainProcess] - Metadata received. Found 5679 expected granules.
+2026-01-23 03:03:45,151 - INFO - [MainProcess] - Prepared 5679 files for integrity verification.
+2026-01-23 03:03:45,151 - INFO - [MainProcess] - Starting parallel audit with 18 threads. This verifies disk content and cryptographic hashes.
+2026-01-23 03:04:21,562 - INFO - [MainProcess] - Detailed CSV report saved to modis_audit_report.csv
+2026-01-23 03:04:21,562 - INFO - [MainProcess] - SUCCESS: 100% Integrity Verification Passed.

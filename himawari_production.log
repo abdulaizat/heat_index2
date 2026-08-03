@@ -1,0 +1,246 @@
+2025-12-30 20:53:11,162 [INFO] === Processing 2020-01-01 ===
+2025-12-30 20:53:15,106 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0000_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 20:54:25,637 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0000_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 20:55:07,439 [INFO] Using default KDTree resampler
+2025-12-30 20:55:07,698 [ERROR] [Satpy] Processing failed for 2020-01-01 00:00: name 'pd' is not defined
+2025-12-30 20:55:11,004 [INFO] [JAXA] Downloading NC_H08_20200101_0000_L2ARP030_FLDK.02401_02401.nc
+2025-12-30 20:56:18,299 [WARNING] Could not crop JAXA file /mnt/AizatDrive/himawari_data/2020/01/01/NC_H08_20200101_0000_L2ARP030_FLDK.02401_02401.nc: Cannot cast ufunc 'multiply' output from dtype('float64') to dtype('int64') with casting rule 'same_kind'
+2025-12-30 20:56:19,794 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0100_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 20:57:11,450 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0100_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 20:57:37,057 [INFO] Using default KDTree resampler
+2025-12-30 20:57:37,177 [ERROR] [Satpy] Processing failed for 2020-01-01 01:00: name 'pd' is not defined
+2025-12-30 20:57:38,290 [INFO] [JAXA] Downloading NC_H08_20200101_0100_L2ARP030_FLDK.02401_02401.nc
+2025-12-30 21:09:57,790 [INFO] === Processing 2020-01-01 ===
+2025-12-30 21:09:59,556 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0000_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:10:39,267 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0000_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:11:40,211 [INFO] Using default KDTree resampler
+2025-12-30 21:11:40,466 [ERROR] [Satpy] Processing failed for 2020-01-01 00:00: Invalid value for attr 'time_parameters': {'nominal_start_time': datetime.datetime(2020, 1, 1, 0, 0), 'nominal_end_time': datetime.datetime(2020, 1, 1, 0, 10), 'observation_start_time': datetime.datetime(2020, 1, 1, 0, 4, 4, 144133), 'observation_end_time': datetime.datetime(2020, 1, 1, 0, 5, 5, 107619)}. For serialization to netCDF files, its value must be of one of the following types: str, Number, ndarray, number, list, tuple, bytes
+2025-12-30 21:11:43,809 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0100_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:12:17,535 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0100_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:13:21,167 [INFO] Using default KDTree resampler
+2025-12-30 21:13:21,283 [ERROR] [Satpy] Processing failed for 2020-01-01 01:00: Invalid value for attr 'time_parameters': {'nominal_start_time': datetime.datetime(2020, 1, 1, 1, 0), 'nominal_end_time': datetime.datetime(2020, 1, 1, 1, 10), 'observation_start_time': datetime.datetime(2020, 1, 1, 1, 4, 4, 80098), 'observation_end_time': datetime.datetime(2020, 1, 1, 1, 5, 5, 43582)}. For serialization to netCDF files, its value must be of one of the following types: str, Number, ndarray, number, list, tuple, bytes
+2025-12-30 21:13:28,126 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0200_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:15:28,179 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0200_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:16:55,500 [INFO] Using default KDTree resampler
+2025-12-30 21:16:55,620 [ERROR] [Satpy] Processing failed for 2020-01-01 02:00: Invalid value for attr 'time_parameters': {'nominal_start_time': datetime.datetime(2020, 1, 1, 2, 0), 'nominal_end_time': datetime.datetime(2020, 1, 1, 2, 10), 'observation_start_time': datetime.datetime(2020, 1, 1, 2, 4, 4, 16056), 'observation_end_time': datetime.datetime(2020, 1, 1, 2, 5, 4, 979541)}. For serialization to netCDF files, its value must be of one of the following types: str, Number, ndarray, number, list, tuple, bytes
+2025-12-30 21:16:59,021 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0300_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:17:45,617 [INFO] === Processing 2020-01-01 ===
+2025-12-30 21:17:46,893 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0000_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:17:52,760 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0000_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:19:07,091 [INFO] Using default KDTree resampler
+2025-12-30 21:19:07,334 [ERROR] [Satpy] Processing failed for 2020-01-01 00:00: Invalid value for attr 'end_time': datetime.datetime(2020, 1, 1, 0, 10). For serialization to netCDF files, its value must be of one of the following types: str, Number, ndarray, number, list, tuple, bytes
+2025-12-30 21:19:09,612 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0100_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:20:59,803 [INFO] === Processing 2020-01-01 ===
+2025-12-30 21:21:01,585 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0000_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:21:55,770 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0000_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:23:01,259 [INFO] Using default KDTree resampler
+2025-12-30 21:23:01,511 [ERROR] [Satpy] Processing failed for 2020-01-01 00:00: Invalid value for attr 'area': Area ID: malaysia_crop
+Description: malaysia_crop
+Projection: {'datum': 'WGS84', 'no_defs': 'None', 'proj': 'longlat', 'type': 'crs'}
+Number of columns: 2100
+Number of rows: 800
+Area extent: (99.0, 0.0, 120.0, 8.0). For serialization to netCDF files, its value must be of one of the following types: str, Number, ndarray, number, list, tuple, bytes
+2025-12-30 21:23:02,771 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0100_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:23:27,368 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0100_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:24:17,664 [INFO] Using default KDTree resampler
+2025-12-30 21:24:17,780 [ERROR] [Satpy] Processing failed for 2020-01-01 01:00: Invalid value for attr 'area': Area ID: malaysia_crop
+Description: malaysia_crop
+Projection: {'datum': 'WGS84', 'no_defs': 'None', 'proj': 'longlat', 'type': 'crs'}
+Number of columns: 2100
+Number of rows: 800
+Area extent: (99.0, 0.0, 120.0, 8.0). For serialization to netCDF files, its value must be of one of the following types: str, Number, ndarray, number, list, tuple, bytes
+2025-12-30 21:24:21,543 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0200_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:25:37,244 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0200_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:27:27,410 [INFO] Using default KDTree resampler
+2025-12-30 21:27:27,529 [ERROR] [Satpy] Processing failed for 2020-01-01 02:00: Invalid value for attr 'area': Area ID: malaysia_crop
+Description: malaysia_crop
+Projection: {'datum': 'WGS84', 'no_defs': 'None', 'proj': 'longlat', 'type': 'crs'}
+Number of columns: 2100
+Number of rows: 800
+Area extent: (99.0, 0.0, 120.0, 8.0). For serialization to netCDF files, its value must be of one of the following types: str, Number, ndarray, number, list, tuple, bytes
+2025-12-30 21:27:30,820 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0300_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:28:05,016 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0300_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:29:16,600 [INFO] Using default KDTree resampler
+2025-12-30 21:29:16,717 [ERROR] [Satpy] Processing failed for 2020-01-01 03:00: Invalid value for attr 'area': Area ID: malaysia_crop
+Description: malaysia_crop
+Projection: {'datum': 'WGS84', 'no_defs': 'None', 'proj': 'longlat', 'type': 'crs'}
+Number of columns: 2100
+Number of rows: 800
+Area extent: (99.0, 0.0, 120.0, 8.0). For serialization to netCDF files, its value must be of one of the following types: str, Number, ndarray, number, list, tuple, bytes
+2025-12-30 21:29:18,329 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0400_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:29:49,197 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0400_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:30:53,570 [INFO] Using default KDTree resampler
+2025-12-30 21:30:53,691 [ERROR] [Satpy] Processing failed for 2020-01-01 04:00: Invalid value for attr 'area': Area ID: malaysia_crop
+Description: malaysia_crop
+Projection: {'datum': 'WGS84', 'no_defs': 'None', 'proj': 'longlat', 'type': 'crs'}
+Number of columns: 2100
+Number of rows: 800
+Area extent: (99.0, 0.0, 120.0, 8.0). For serialization to netCDF files, its value must be of one of the following types: str, Number, ndarray, number, list, tuple, bytes
+2025-12-30 21:30:56,804 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0500_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:31:00,311 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0500_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:32:01,752 [INFO] Using default KDTree resampler
+2025-12-30 21:32:01,873 [ERROR] [Satpy] Processing failed for 2020-01-01 05:00: Invalid value for attr 'area': Area ID: malaysia_crop
+Description: malaysia_crop
+Projection: {'datum': 'WGS84', 'no_defs': 'None', 'proj': 'longlat', 'type': 'crs'}
+Number of columns: 2100
+Number of rows: 800
+Area extent: (99.0, 0.0, 120.0, 8.0). For serialization to netCDF files, its value must be of one of the following types: str, Number, ndarray, number, list, tuple, bytes
+2025-12-30 21:32:03,447 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0600_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:33:09,559 [INFO] === Processing 2020-01-01 ===
+2025-12-30 21:33:13,088 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0000_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:34:16,234 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0000_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:35:28,112 [INFO] Using default KDTree resampler
+2025-12-30 21:35:28,360 [ERROR] [Satpy] Processing failed for 2020-01-01 00:00: unable to infer dtype on variable 'crs'; xarray cannot serialize arbitrary Python objects
+2025-12-30 21:35:30,914 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0100_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:35:35,675 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0100_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:35:55,130 [INFO] Using default KDTree resampler
+2025-12-30 21:35:55,253 [ERROR] [Satpy] Processing failed for 2020-01-01 01:00: unable to infer dtype on variable 'crs'; xarray cannot serialize arbitrary Python objects
+2025-12-30 21:35:57,488 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0200_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:36:58,764 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0200_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:37:13,563 [INFO] Using default KDTree resampler
+2025-12-30 21:37:13,686 [ERROR] [Satpy] Processing failed for 2020-01-01 02:00: unable to infer dtype on variable 'crs'; xarray cannot serialize arbitrary Python objects
+2025-12-30 21:37:17,437 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0300_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:38:19,388 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0300_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:39:41,502 [INFO] === Processing 2020-01-01 ===
+2025-12-30 21:39:44,251 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0000_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:40:39,935 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0000_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:41:35,136 [INFO] Using default KDTree resampler
+2025-12-30 21:41:36,093 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_0000_Malaysia.nc
+2025-12-30 21:41:52,677 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0100_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:44:28,294 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0100_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:44:55,030 [INFO] Using default KDTree resampler
+2025-12-30 21:44:55,814 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_0100_Malaysia.nc
+2025-12-30 21:44:57,501 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0200_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:45:00,515 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0200_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:45:07,051 [INFO] Using default KDTree resampler
+2025-12-30 21:45:07,810 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_0200_Malaysia.nc
+2025-12-30 21:45:11,361 [INFO] Using default KDTree resampler
+2025-12-30 21:45:12,129 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_0300_Malaysia.nc
+2025-12-30 21:45:12,669 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0400_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:45:15,065 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0400_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:45:20,242 [INFO] Using default KDTree resampler
+2025-12-30 21:45:21,014 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_0400_Malaysia.nc
+2025-12-30 21:45:21,551 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0500_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:45:24,888 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0500_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:45:32,860 [INFO] Using default KDTree resampler
+2025-12-30 21:45:33,629 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_0500_Malaysia.nc
+2025-12-30 21:45:34,914 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0600_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:45:37,372 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0600_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:45:42,426 [INFO] Using default KDTree resampler
+2025-12-30 21:45:43,190 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_0600_Malaysia.nc
+2025-12-30 21:45:43,727 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0700_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:45:47,109 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0700_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:45:53,063 [INFO] Using default KDTree resampler
+2025-12-30 21:45:53,834 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_0700_Malaysia.nc
+2025-12-30 21:45:54,371 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0800_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:45:57,974 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0800_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:46:03,712 [INFO] Using default KDTree resampler
+2025-12-30 21:46:04,487 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_0800_Malaysia.nc
+2025-12-30 21:46:05,034 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0900_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:46:09,879 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_0900_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:46:16,558 [INFO] Using default KDTree resampler
+2025-12-30 21:46:17,327 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_0900_Malaysia.nc
+2025-12-30 21:46:18,655 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1000_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:46:25,299 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1000_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:46:33,694 [INFO] Using default KDTree resampler
+2025-12-30 21:46:34,472 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_1000_Malaysia.nc
+2025-12-30 21:46:34,770 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1100_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:46:40,145 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1100_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:46:46,651 [INFO] Using default KDTree resampler
+2025-12-30 21:46:47,422 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_1100_Malaysia.nc
+2025-12-30 21:46:48,954 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1200_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:47:01,348 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1200_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:47:09,676 [INFO] Using default KDTree resampler
+2025-12-30 21:47:10,434 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_1200_Malaysia.nc
+2025-12-30 21:47:10,742 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1300_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:47:14,282 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1300_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:47:20,379 [INFO] Using default KDTree resampler
+2025-12-30 21:47:21,145 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_1300_Malaysia.nc
+2025-12-30 21:47:21,441 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1400_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:47:26,073 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1400_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:47:31,898 [INFO] Using default KDTree resampler
+2025-12-30 21:47:32,652 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_1400_Malaysia.nc
+2025-12-30 21:47:32,953 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1500_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:47:36,952 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1500_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:47:42,785 [INFO] Using default KDTree resampler
+2025-12-30 21:47:43,649 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_1500_Malaysia.nc
+2025-12-30 21:47:43,947 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1600_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:47:52,059 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1600_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:48:02,189 [INFO] Using default KDTree resampler
+2025-12-30 21:48:02,963 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_1600_Malaysia.nc
+2025-12-30 21:48:03,262 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1700_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:48:08,258 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1700_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:48:15,013 [INFO] Using default KDTree resampler
+2025-12-30 21:48:15,789 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_1700_Malaysia.nc
+2025-12-30 21:48:16,088 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1800_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:48:20,049 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1800_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:48:26,835 [INFO] Using default KDTree resampler
+2025-12-30 21:48:27,609 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_1800_Malaysia.nc
+2025-12-30 21:48:27,908 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1900_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:48:31,882 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_1900_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:48:37,684 [INFO] Using default KDTree resampler
+2025-12-30 21:48:38,454 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_1900_Malaysia.nc
+2025-12-30 21:48:38,755 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_2000_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:48:42,287 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_2000_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:48:50,628 [INFO] Using default KDTree resampler
+2025-12-30 21:48:51,399 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_2000_Malaysia.nc
+2025-12-30 21:48:51,729 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_2100_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:49:04,504 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_2100_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:49:14,577 [INFO] Using default KDTree resampler
+2025-12-30 21:49:15,363 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_2100_Malaysia.nc
+2025-12-30 21:49:15,663 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_2200_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:49:18,899 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_2200_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:49:24,737 [INFO] Using default KDTree resampler
+2025-12-30 21:49:25,509 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_2200_Malaysia.nc
+2025-12-30 21:49:25,807 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_2300_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:49:29,371 [INFO] [AWS] Downloading Segment 5: HS_H08_20200101_2300_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:49:35,396 [INFO] Using default KDTree resampler
+2025-12-30 21:49:36,172 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200101_2300_Malaysia.nc
+2025-12-30 21:49:36,179 [INFO] === Processing 2020-01-02 ===
+2025-12-30 21:49:36,473 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0000_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:49:43,085 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0000_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:49:53,743 [INFO] Using default KDTree resampler
+2025-12-30 21:49:54,518 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200102_0000_Malaysia.nc
+2025-12-30 21:49:55,070 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0100_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:49:59,080 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0100_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:50:05,890 [INFO] Using default KDTree resampler
+2025-12-30 21:50:06,650 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200102_0100_Malaysia.nc
+2025-12-30 21:50:07,199 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0200_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:50:11,976 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0200_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:50:18,351 [INFO] Using default KDTree resampler
+2025-12-30 21:50:19,131 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200102_0200_Malaysia.nc
+2025-12-30 21:50:20,668 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0300_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:50:23,223 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0300_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:50:28,258 [INFO] Using default KDTree resampler
+2025-12-30 21:50:29,027 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200102_0300_Malaysia.nc
+2025-12-30 21:50:29,584 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0400_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:50:32,854 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0400_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:50:39,517 [INFO] Using default KDTree resampler
+2025-12-30 21:50:40,285 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200102_0400_Malaysia.nc
+2025-12-30 21:50:42,041 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0500_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:51:10,908 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0500_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:51:48,468 [INFO] Using default KDTree resampler
+2025-12-30 21:51:49,250 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200102_0500_Malaysia.nc
+2025-12-30 21:51:50,302 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0600_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:52:25,041 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0600_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:52:51,031 [INFO] Using default KDTree resampler
+2025-12-30 21:52:51,823 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200102_0600_Malaysia.nc
+2025-12-30 21:52:52,713 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0700_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:53:27,429 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0700_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:54:15,006 [INFO] Using default KDTree resampler
+2025-12-30 21:54:15,795 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200102_0700_Malaysia.nc
+2025-12-30 21:54:17,185 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0800_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:54:20,367 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0800_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:54:25,761 [INFO] Using default KDTree resampler
+2025-12-30 21:54:26,547 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200102_0800_Malaysia.nc
+2025-12-30 21:54:27,107 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0900_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:54:31,791 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_0900_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:54:38,499 [INFO] Using default KDTree resampler
+2025-12-30 21:54:39,284 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200102_0900_Malaysia.nc
+2025-12-30 21:54:39,848 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_1000_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:54:44,555 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_1000_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:54:51,083 [INFO] Using default KDTree resampler
+2025-12-30 21:54:51,861 [INFO] [SUCCESS] Saved Heat Movie Frame: LST_H08_20200102_1000_Malaysia.nc
+2025-12-30 21:54:52,172 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_1100_B13_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:55:00,707 [INFO] [AWS] Downloading Segment 5: HS_H08_20200102_1100_B14_FLDK_R20_S0510.DAT.bz2
+2025-12-30 21:55:12,305 [INFO] Using default KDTree resampler

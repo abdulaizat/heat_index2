@@ -1,0 +1,872 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+  <title>CPC - Climate Weather Linkage: Madden - Julian Oscillation</title>
+  <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+  <meta content="NCEP Web Team" name="GENERATOR">
+  <link href="/nwscwi/main.css" type="text/css" rel="STYLESHEET">
+  <script language="Javascript" type="text/javascript">
+   function show_tab(nam)
+   {
+    document.getElementById("INDEXCPC").style.display= "none";
+    document.getElementById("INDEXWH40").style.display= "none";
+    document.getElementById("CHISPATIAL").style.display= "none";
+    document.getElementById("IRLOOP").style.display= "none";
+    document.getElementById("OLRANOM").style.display= "none";
+    document.getElementById("OLRHOV").style.display= "none";
+    document.getElementById("850TOT").style.display= "none";
+    document.getElementById("850ANM").style.display= "none";
+    document.getElementById("850HOV").style.display= "none";
+    document.getElementById("200TOT").style.display= "none";
+    document.getElementById("200ANM").style.display= "none";
+    document.getElementById("200HOV").style.display= "none";
+    document.getElementById("500HGTNHLOOP").style.display= "none";
+    document.getElementById("500HGTSHLOOP").style.display= "none";
+    document.getElementById("200HGTLOOP").style.display= "none";
+    document.getElementById("500PTDHGT").style.display= "none";
+    document.getElementById("200PTDWND").style.display= "none";
+    document.getElementById("CHI200TOTHOV").style.display= "none";
+    document.getElementById("CHI850TOTHOV").style.display= "none";
+    document.getElementById("HCHOV").style.display= "none";
+    document.getElementById(nam).style.display = "block";
+    }
+  </script>
+  <script language="Javascript" type="text/javascript">
+   function show_tab2(nam)
+   {
+    document.getElementById("GFSPLUME").style.display= "none";
+    document.getElementById("GFSPHASE").style.display= "none";
+    document.getElementById("GFSOLR").style.display= "none";
+    document.getElementById("GFSTLON").style.display= "none";
+    document.getElementById("GFSVDAY8").style.display= "none";
+    document.getElementById("GFSVDAY15").style.display= "none";
+    document.getElementById("STATPHASE").style.display= "none";
+    document.getElementById("CAOLR").style.display= "none";
+    document.getElementById("CATLON").style.display= "none";
+    document.getElementById("CAVDAY8").style.display= "none";
+    document.getElementById("CAVDAY15").style.display= "none";
+    document.getElementById("EWP").style.display= "none";
+    document.getElementById("GFS").style.display= "none";
+    document.getElementById("CFS").style.display= "none";
+    document.getElementById(nam).style.display = "block";
+    }
+  </script>
+</head>
+<body leftmargin="0" background="/nwscwi/background.gif" 
+      topmargin="0" rightmargin="0" marginheight="0" marginwidth="0">
+
+<table cellspacing="0" cellpadding="0" width="100%" border="0" background="/nwscwi/topbanner.jpg" >
+	<tbody>
+		<tr>
+			<td align="right" height="19">
+				<a href="#contents"><img height="1" alt="Skip Navigation Links" src="/nwscwi/skipgraphic.gif" width="1" border="0"></a>
+				<a href="http://www.nws.noaa.gov/" class="homepagelinks"><SPAN class="nwslink">www.nws.noaa.gov</span></a>&nbsp;
+			</td>
+		</tr>
+	</tbody>
+</table>
+<!-- -->
+<table cellspacing="0" cellpadding="0" width="100%" border="0">
+	<tbody>
+		<tr>
+			<td rowSpan="2"><A href="http://www.noaa.gov/">
+			<img height="78" alt="NOAA logo - Click to go to the NOAA home page" src="/nwscwi/noaaleft.jpg" width="85" border="0"></a></td>
+			<td align="left"><img height="20" alt="National Weather Service" src="/nwscwi/nws_title.jpg" width="500" border="0"></td>
+			<td rowspan="2" width="100%" background="/nwscwi/ncep_bkgrnd.jpg">&nbsp;</td>
+			<td rowspan="2" align="right"><a href="http://www.nws.noaa.gov/">
+			<img height="78" alt="NWS logo - Click to go to the NWS home page" src="/nwscwi/nwsright.jpg" width="85" border="0"></a></td>
+		</tr>
+		<tr>
+			<td><img height="58" alt="Climate Prediction Center" src="/nwscwi/cpc.jpg" width="500" border="0"></td>
+		</tr>
+	</tbody>
+</table>
+<!-- -->
+<table cellspacing="0" cellpadding="0" width="100%" background="/nwscwi/navbkgrnd.gif" border="0">
+	<tbody>
+		<tr>
+			<td align="left" width="135"><img height="23" alt="" src="/nwscwi/navbarleft.jpg" width="94" border="0"></td>
+			<td class="nav" align="center" width="10%">
+				<a href="/" class="menu" title="to the climate prediction center home page">home</a>
+			</td>
+			<td class="nav" align="center" width="10%">
+				<a href="/products/site_index.shtml" class="menu" title="to Climate Prediction Center site map">Site Map</a>
+			</td>
+			<td class="nav" align="right" width="10%">
+				<a href="http://www.nws.noaa.gov/pa/" class="menu" title="to National Weather Service news page">News</a>
+			</td>
+			<td class="nav" align="right" width="19%">
+				<a href="http://www.weather.gov/organization.php" class="menu">Organization</a>
+			</td>
+			<td class="searchinput" align="right" width="30%">
+				<form method="get" action="http://search.usa.gov/search" style="margin-bottom:0; margin-top:0;">
+				<label for="Search"><span class="yellow">Search</span>&nbsp;&nbsp;</label>
+				<input type="hidden" name="affiliate" value="nws.noaa.gov" />
+				<input type="hidden" name="v:project" value="firstgov" />
+				<input name="query" type="text" value="" size="20" maxlength="256" id="Search" />
+				<input type="submit" value="Go" />
+				</form>
+			</td>
+			<td align="right"><img height="23" alt="" src="/nwscwi/navbarendcap.jpg" width="24" border="0"></td>
+		</tr>
+	</tbody>
+</table>       <!-- Use virtual include, because this should be in a common place within your DocumentRoot. -->
+<table cellspacing="0" cellpadding="0" width="670" border="0">
+  <tr valign="top">
+    <td width="137"><br>
+            <table cellspacing="0" cellpadding="0" width="137" border="0">
+        <!-- Do not remove this section. You will need this when the City,St/zip search is implemented nationwide.-->
+        <!-- <tr align="left" valign="top">
+                <td class="searchinput">
+                  <div id="Layer2" style="position:absolute; width:200px; height:115px; z-index:2; visibility: hidden">Search by city or zip code. Press enter or select the go button to submit request</div>
+                  <form method="POST" action="http://www.srh.noaa.gov/zipcity.php">
+                  <span class="yellow">Local forecast by<br>&quot;City, St&quot; or Zip Code</span><br>
+                  <input type="text" name="inputstring" size="9" value="City, St">
+                  <input type="submit" name="Go2" value="Go"></form></td>
+        </tr> -->
+<!--
+         <tr>
+          <td class="searchinput" align="left">
+           <form method="get" action="http://firstgovsearch.gov/search"
+                 style="margin-bottom:0; margin-top:0;">
+            <label for="Search">
+            <span class="yellow">Search&nbsp;the CPC</span></label>
+            <input type="hidden" name="affiliate" value="ncep.noaa.gov" />
+            <input type="hidden" name="v:sources"
+                  value="firstgov-affiliates-search" />
+            <input type="hidden" name="v:project" value="firstgov" />
+            <input type="hidden" name="query"
+                  value="site:www.cpc.ncep.noaa.gov" />
+            <input name="query" type="text" value="All CPC" size="10" maxlength="256"
+                  id="Search"/>
+            <input type="submit" value="Go"  />
+           </form>
+          </td>
+         </tr>
+-->
+
+         <tr>
+          <td class="searchinput" align="left">
+
+           <form method="get" action="http://usasearch.gov/search"
+                 style="margin-bottom:0; margin-top:0;">
+            <label for="Search">
+            <span class="yellow">Search&nbsp;the CPC</span></label>
+            <input type="hidden" name="affiliate" value="ncep.noaa.gov" />
+            <input type="hidden" name="v:sources"
+                  value="firstgov-affiliates-search" />
+            <input type="hidden" name="v:project" value="firstgov" />
+            <input type="hidden" name="query"
+                  value="site:www.cpc.ncep.noaa.gov" />
+            <input name="query" type="text" value="" size="10" maxlength="256"
+                  id="Search"/>
+            <input type="submit" value="Go"  />
+           </form>
+
+          </td>
+         </tr>
+
+
+
+        <tr>
+          <td class="white" id="menuitem">
+
+            <a href="/products/forecasts/" class="menu"><font color="#F0E68C">Climate Outlooks</font></a><br><br>
+
+            <a href="/products/precip/CWlink/MJO/climwx.shtml" class="menu"><span class="yellow">Climate & Weather Link</span></a><br>
+            &nbsp;&nbsp;&nbsp;<a href="/products/precip/CWlink/MJO/enso.shtml"class="menu">El Ni&ntilde;o/La Ni&ntilde;a</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="/products/precip/CWlink/MJO/mjo.shtml"class="menu">MJO</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="/products/precip/CWlink/daily_ao_index/teleconnections.shtml" class="menu">Teleconnections</a><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/products/precip/CWlink/daily_ao_index/ao.shtml" class="menu">AO</a><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/products/precip/CWlink/pna/nao.shtml" class="menu">NAO</a><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/products/precip/CWlink/pna/pna.shtml" class="menu">PNA</a><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/products/precip/CWlink/daily_ao_index/aao/aao.shtml" class="menu">AAO</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="/products/precip/CWlink/MJO/block.shtml"class="menu">Blocking</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="/products/precip/CWlink/stormtracks/mstrack.shtml"class="menu">Storm Tracks</a><br><br>
+
+<!--  
+            <a href="" class="menu"><font color="#F0E68C">Current Conditions</font></a><br><br>
+            <a href="" class="menu"><font color="#F0E68C">Climatology</font></a><br><br>
+            <a href="" class="menu"><font color="#F0E68C">Global Climate</font></a><br><br> 
+-->
+            <a href="/products/outreach/glossary.shtml" class="menu"><font color="#F0E68C">Climate Glossary</font></a><br><br>
+<!--            
+            <a href="" class="menu"><font color="#F0E68C">Education</font></a><br><br>          
+-->
+            <a href="/products/outreach/" class="menu"><font color="#F0E68C">Outreach</font></a><br><br>
+
+            <span class="yellow">About Us</span><br>
+            &nbsp;&nbsp;&nbsp;<a href="/information/who_we_are/mission.shtml">Our Mission</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="/information/who_we_are/index.shtml">Who We Are</a><br><br>
+
+            <span class="yellow">Contact Us</span><br>
+            &nbsp;&nbsp;&nbsp;<a href="/information/personnel/contacts.shtml">CPC Information</a><br>
+            &nbsp;&nbsp;&nbsp;<a href="/comment-form.html">CPC Web Team</a><br><br>
+            
+          </td>
+        </tr>
+         <TR><TD>&nbsp;</TD></TR>
+         <TR>
+          <TD class="white" id="menuitem">
+           <a href="http://www.usa.gov/"><img src="/nwscwi/usagov_logo_color_110wb.gif" alt="USA.gov is the U.S. Government's official Web portal to all Federal, state and local government Web resources and services." width="110" height="30" border="0"></a>
+          </TD>
+         </TR>
+      </table>
+   <!-- Use virtual include, because this should be in a common place within your DocumentRoot. -->
+    </td>
+    <td valign="top" align="center" width="533"><a name="contents"></a>
+      <table border="0" cellPadding="2" cellSpacing="0" width="540">
+ <tr>
+  <td>
+   <font face="verdana,arial,serif" size="1" color="#000000"><a href="/" class="homepagelinks"><strong>HOME</strong></a> &gt; <a href="/products/precip/CWlink/MJO/climwx.shtml" class="homepagelinks">Climate & Weather Linkage</a> &gt; Madden Julian Oscillation</font>
+  </td>
+ </tr>
+
+ <tr><td>&nbsp;</td></tr> 
+ <tr>
+  <td valign="top" align="center">
+   <img src="/www_images/MJO.gif" alt="" height="55">
+  </td>
+ </tr>
+ <tr><td>&nbsp;</td></tr> 
+
+ <tr>
+  <td valign="top"><a name="list"></a>
+   <table border="0" cellpadding="2" cellspacing="2" width="540">
+    <tr>
+     <td>
+      <ul>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#current"><strong>Current Conditions</strong></a></font></li>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#forecast"><strong>Forecasts</strong></a></font></li>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#clivar"><strong>MJO Task Force Dynamical Model MJO Forecasts</strong></a></font></li>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#other"><strong>Additional MJO Products</strong></a></font></li>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#discussion"><strong>Expert Discussions</strong></a></font></li>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#composite"><strong>Composites</strong></a></font></li>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#educational material"><strong>Educational Material</strong></a></font></li>
+       <li type="square"><font face="verdana,arial,serif" size="2"><a href="#publication"><strong>Publications</strong></a></font></li>
+      </ul>
+     </td>
+    </tr>
+   </table>
+   <hr>
+  </td>
+ </tr>
+
+<!--<tr>
+<td>
+<H3><font color="FF0000">Due to unscheduled computer maintenance, some of the products on this page will be unavailable until Friday 12/9. We regret the inconvenience this causes and we will try to update these products as soon as possible during the day on Friday. Thank you for your patience.
+</font>
+</h3>
+</td>
+</tr>
+-->
+ <tr>
+  <td><a name="current"></a>
+   <ul>
+    <li type="square"><font face="verdana,arial,serif" size="3"><strong>Current Conditions</strong></font></li>
+   </ul>
+  </td>
+ </tr>
+ 
+ <tr>
+  <td>
+   <table style="border-color: black; border-style: solid; border-width: thin;">
+    <tr>
+     <td align="center" colspan="8">
+      <font face="verdana,arial,serif" size="2"><strong>Note:</strong> Move cursor over product name to display. Click for larger size and info</font> 
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <table border="1" cellPadding="0" cellSpacing="0" width="540" align="center" name="Tabs">
+       <tr>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" colspan="2" width="135"><font color="#F0E68C">MJO Indices </font></td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" colspan="6" width="405"><font color="#F0E68C">Satellite / Outgoing Longwave Radiation (OLR)</font></td>
+       </tr>
+       <tr>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/precip/CWlink/daily_mjo_index/mjo_index.shtml" OnMouseOver="show_tab('INDEXCPC')" title="" class="homepagelinks">CPC</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/precip/CWlink/MJO/whindex.shtml" OnMouseOver="show_tab('INDEXWH40')" title="" class="homepagelinks">WH</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="135" colspan="2">
+         <a href="/products/precip/CWlink/ir_anim_monthly.shtml" OnMouseOver="show_tab('CHISPATIAL')" title="" class="homepagelinks">Vel Potential / IR</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/intraseasonal/irtempanim.shtml" OnMouseOver="show_tab('IRLOOP')" title="" class="homepagelinks">Global IR</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/precip/CWlink/MJO/olra_last30days-3plots.gif" OnMouseOver="show_tab('OLRANOM')" title="" class="homepagelinks">OLR Map</a>
+        </td>
+         <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="135" colspan="2">
+         <a href="/products/intraseasonal/olra_tloneq.shtml" OnMouseOver="show_tab('OLRHOV')" title="" class="homepagelinks">OLR Time-Lon</a>
+        </td>
+       </tr>
+       <tr><td colspan="8">&nbsp;</td></tr>
+       <tr>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" colspan="8" width="540"><font color="#F0E68C">850-hPa and 200-hPa Tropical Winds</font></td>
+       </tr>
+       <tr>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/precip/CWlink/MJO/pentad850winds_total.shtml" OnMouseOver="show_tab('850TOT')" title="" class="homepagelinks">850 Total</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/precip/CWlink/MJO/pentad850winds.shtml" OnMouseOver="show_tab('850ANM')" title="" class="homepagelinks">850 Anom</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="135" colspan="2">
+         <a href="/products/intraseasonal/850u_tlon.shtml" OnMouseOver="show_tab('850HOV')" title="" class="homepagelinks">850 Time-Lon</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/precip/CWlink/MJO/pentad200winds_total.shtml" OnMouseOver="show_tab('200TOT')" title="" class="homepagelinks">200 Total</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/precip/CWlink/MJO/pentad200winds.shtml" OnMouseOver="show_tab('200ANM')" title="" class="homepagelinks">200 Anom</a>
+        </td>
+       <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="135" colspan="2">
+         <a href="/products/intraseasonal/200u_tlon.shtml" OnMouseOver="show_tab('200HOV')" title="" class="homepagelinks">200 Time-Lon</a>
+        </td>
+       </tr>
+       <tr><td colspan="8">&nbsp;</td></tr>
+       <tr>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" colspan="5" width="338"><font color="#F0E68C">500-hPa and 200-hPa Heights and Wind</font></td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" colspan="2" width="135"><font color="#F0E68C">Velocity Potential</font></td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" colspan="1" width="68"><font color="#F0E68C">Ocean</font></td>
+       </tr>
+       <tr>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/intraseasonal/z500_nh_anim.shtml" OnMouseOver="show_tab('500HGTNHLOOP')" title="" class="homepagelinks">NH 500</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/intraseasonal/z500_sh_anim.shtml" OnMouseOver="show_tab('500HGTSHLOOP')" title="" class="homepagelinks">SH 500</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/intraseasonal/z200anim.shtml" OnMouseOver="show_tab('200HGTLOOP')" title="" class="homepagelinks">Global 200</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/intraseasonal/500hgt_5dintvl_global.gif" OnMouseOver="show_tab('500PTDHGT')" title="" class="homepagelinks">500 5-Day</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/intraseasonal/200wind_5dintvl_global.gif" OnMouseOver="show_tab('200PTDWND')" title="" class="homepagelinks">200 5-Day</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/intraseasonal/vpot_tlon.shtml" OnMouseOver="show_tab('CHI200TOTHOV')" title="" class="homepagelinks">200-hPa</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/intraseasonal/vpot_tlon_850.shtml" OnMouseOver="show_tab('CHI850TOTHOV')" title="" class="homepagelinks">850-hPa</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="68" colspan="1">
+         <a href="/products/intraseasonal/heat_tlon.shtml" OnMouseOver="show_tab('HCHOV')" title="" class="homepagelinks">Heat Cont</a>
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+
+    <tr>
+     <td align="center">
+      <table width="540" cellpadding="0" cellspacing="0" align="center">
+       <tr><td width="540">&nbsp;</td></tr>
+       <tr>
+        <td align="center" width="540">
+         <div id="INDEXCPC" style="display:block;">
+          <img src="/products/precip/CWlink/daily_mjo_index/tm_order_2.gif" width=291 alt="CPC MJO Index">
+         </div>
+         <div id="INDEXWH40" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/obs_phase40_small.gif" width=369 alt="CPC Version of the WH MJO Index">
+         </div>
+         <div id="CHISPATIAL" style="display:none;">
+          <img src="/products/precip/CWlink/vpotgifs/am_ir_monthly_1.gif" width=540 alt="Velocity-Potential/IR temperatures">
+         </div>
+         <div id="IRLOOP" style="display:none;">
+          <img src="/products/intraseasonal/irtempanim.gif" width=540 alt="IR satellite animation">
+         </div>
+         <div id="500HGTNHLOOP" style="display:none;">
+          <img src="/products/intraseasonal/z500_nh_30d_anim.gif" width=540 alt="NH 500 hgt 30 day loop">
+         </div>
+         <div id="500HGTSHLOOP" style="display:none;">
+          <img src="/products/intraseasonal/z500_sh_30d_anim.gif" width=540 alt="SH 500 hgt 30 day loop">
+         </div>
+         <div id="200HGTLOOP" style="display:none;">
+          <img src="/products/intraseasonal/z200anim.gif" width=540 alt="Global 200 hgt 30 day loop">
+         </div>
+         <div id="OLRANOM" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/olra_last30days-3plots_2.gif" width=285 alt="Spatial OLR anomalies">
+         </div>
+         <div id="850TOT" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/current_total_850wind_small.gif" width=540 alt="Total 850 wind">
+         </div>
+         <div id="850ANM" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/current_anom_850wind_small.gif" width=540 alt="Anomalous 850 wind">
+         </div>
+         <div id="200TOT" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/current_total_200wind_small.gif" width=540 alt="Total 200 wind">
+         </div>
+         <div id="200ANM" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/current_anom_200wind_small.gif" width=540 alt="Anomalous 200 wind">
+         </div>
+         <div id="500PTDHGT" style="display:none;">
+          <img src="/products/intraseasonal/500hgt_5dintvl_global_2.gif" width=540 alt="Pentad Global 500 hgt map">
+         </div>
+         <div id="200PTDWND" style="display:none;">
+          <img src="/products/intraseasonal/200wind_5dintvl_global_2.gif" width=540 alt="Pentad Global 200 wind map">
+         </div>
+         <div id="OLRHOV" style="display:none;">
+          <img src="/products/intraseasonal/olr_hov_last180days_2.gif" width=315 alt="Time-longitude OLR anomalies">
+         </div>
+         <div id="CHI200TOTHOV" style="display:none;">
+          <img src="/products/intraseasonal/tlon_vpot_web_2.gif" width=319 alt="Time-Longitude 200 Velocity Potential ">
+         </div>
+         <div id="CHI850TOTHOV" style="display:none;">
+          <img src="/products/intraseasonal/tlon_vpot_web_850_2.gif" width=319 alt="Time-Longitude 850 Velocity Potential">
+         </div>
+         <div id="850HOV" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/hov_u850_2.gif" width=311 alt="Time-Longitude 850 Zonal Wind">
+         </div>
+         <div id="200HOV" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/hov_u200_2.gif" width=311 alt="Time-Longitude 200 Zonal Wind">
+         </div>
+         <div id="HCHOV" style="display:none;">
+          <img src="/products/intraseasonal/tlon_heat_2.gif" width=267 alt="Heat Content">
+         </div>
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+   </table>
+  </td>
+ </tr>
+
+ <tr><td>&nbsp;</td></tr> 
+
+ <tr>
+  <td><a name="forecast"></a>
+   <ul>
+    <li type="square"><font face="verdana,arial,serif" size="3"><strong>Forecasts</strong></font></li>
+   </ul>
+  </td>
+ </tr>
+
+<!--<tr>
+  <td>
+  <font face="verdana,arial,serif" color="FF0000" size="2"><B> Due to an upstream data issue, some of the forecast plots displayed here unfortunately will be unavailable or not properly updated until COB 10/17 at the earliest. We are working to correct the problem and we very much regret the inconvenience this causes our users. </B></font>
+</td>
+ <td>
+</td>
+ </tr>
+-->
+
+ <tr>
+  <td>
+   <table style="border-color: black; border-style: solid; border-width: thin;">
+    <tr>
+     <td align="center" colspan="8">
+      <font face="verdana,arial,serif" size="2"><strong>Note:</strong> Move cursor over product name to display. Click for larger size and info</font>
+     </td>
+    </tr>
+    <tr>
+     <td>
+      <table border="1" cellPadding="0" cellSpacing="0" width="540" align="center" name="Tabs">
+       <tr>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" colspan="8" width="540"><font color="#F0E68C">Dynamical MJO Forecasts </font></td>
+       </tr>
+       <tr>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="90" colspan="1">
+         <a href="/products/precip/CWlink/MJO/foregfs.shtml" OnMouseOver="show_tab2('GFSPLUME')" title="" class="homepagelinks">Ensemble GFS</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="90" colspan="1">
+         <a href="/products/precip/CWlink/MJO/foroper.shtml" OnMouseOver="show_tab2('GFSPHASE')" title="" class="homepagelinks">Hires GFS</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="90" colspan="1">
+         <a href="/products/precip/CWlink/MJO/foregfs.shtml" OnMouseOver="show_tab2('GFSOLR')" title="" class="homepagelinks">GEFS OLR Map</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="90" colspan="1">
+         <a href="/products/precip/CWlink/MJO/foregfs.shtml" OnMouseOver="show_tab2('GFSTLON')" title="" class="homepagelinks">GEFS Time-Lon</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="90" colspan="1">
+         <a href="/products/precip/CWlink/MJO/dynverif.shtml" OnMouseOver="show_tab2('GFSVDAY8')" title="" class="homepagelinks">1WK Verif</a>
+        </td>
+         <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="90" colspan="1">
+         <a href="/products/precip/CWlink/MJO/dynverif.shtml" OnMouseOver="show_tab2('GFSVDAY15')" title="" class="homepagelinks">2WK Verif</a>
+        </td>
+       </tr>
+
+       <tr><td colspan="8">&nbsp;</td></tr>
+
+       <tr>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" colspan="8" width="540"><font color="#F0E68C">Statistical MJO Forecasts</font></td>
+       </tr>
+       <tr>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="180" colspan="2">
+         <a href="/products/precip/CWlink/MJO/forca.shtml" OnMouseOver="show_tab2('STATPHASE')" title="" class="homepagelinks">CA - LLR - AR Phase Diagram</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="90" colspan="1">
+         <a href="/products/precip/CWlink/MJO/forca.shtml" OnMouseOver="show_tab2('CAOLR')" title="" class="homepagelinks">CA OLR Map</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="90" colspan="1">
+         <a href="/products/precip/CWlink/MJO/forca.shtml" OnMouseOver="show_tab2('CATLON')" title="" class="homepagelinks">CA Time-Lon</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="90" colspan="1">
+         <a href="/products/precip/CWlink/MJO/statverif.shtml" OnMouseOver="show_tab2('CAVDAY8')" title="" class="homepagelinks">1WK Verif</a>
+        </td>
+         <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="90" colspan="1">
+         <a href="/products/precip/CWlink/MJO/statverif.shtml" OnMouseOver="show_tab2('CAVDAY15')" title="" class="homepagelinks">2WK Verif</a>
+        </td>
+       </tr>
+  
+       <tr><td colspan="8">&nbsp;</td></tr>
+
+       <tr>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" colspan="8" width="540"><font color="#F0E68C">200-hPa Velocity Potential Forecasts</font></td>
+       </tr>
+       <tr>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="180" colspan="2">
+         <a href="/products/people/wd52qz/mjo/chi/ewp.gif" OnMouseOver="show_tab2('EWP')" title="" class="homepagelinks">Empirical Wave Propagation</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="180" colspan="2">
+         <a href="/products/people/wd52qz/mjo/chi/gfs.gif" OnMouseOver="show_tab2('GFS')" title="" class="homepagelinks">Global Forecast System</a>
+        </td>
+        <td class="nav" id="menuitem" align="center" bgcolor="#0A2390" width="180" colspan="2">
+         <a href="/products/people/wd52qz/mjo/chi/cfs.gif" OnMouseOver="show_tab2('CFS')" title="" class="homepagelinks">Climate Forecast System</a>
+         <!--<a href="/products/precip/CWlink/MJO/cfs.gif" OnMouseOver="show_tab2('CFS')" title="" class="homepagelinks">Climate Forecast System</a>-->
+        </td>
+       </tr>
+      </table>
+     </td>
+    </tr>
+
+
+    <tr>
+     <td align="center">
+      <table width="540" cellpadding="0" cellspacing="0" align="center">
+       <tr><td width="540">&nbsp;</td></tr>
+       <tr>
+        <td align="center" width="540">
+         <div id="GFSPLUME" style="display:block;">
+          <img src="/products/precip/CWlink/MJO/ensplume_small.gif" width=369 alt="GFS MJO index ensemble plume">
+         </div>
+         <div id="GFSPHASE" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/combphase_noCFSsmall.gif" width=369 alt="MJO index GEFS and GFSOP forecast">
+         </div>
+         <div id="GFSOLR" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/spatial_olrmap_small.gif" width=400 alt="Spatial map of MJO OLR anomalies">
+         </div>
+         <div id="GFSTLON" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/tlon_olr_small.gif" width=354 alt="Time-Longitude of MJO OLR anomalies">
+         </div>
+         <div id="GFSVDAY8" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/operdyn_verif8D_small.gif" width=369 alt="7-Day Verification of MJO index from GFS">
+         </div>
+         <div id="GFSVDAY15" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/operdyn_verif15D_small.gif" width=369 alt="15-Day Verification of MJO index from GFS">
+         </div>
+         <div id="STATPHASE" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/statphase_small.gif" width=369 alt="Statistical model MJO index forecasts">
+         </div>
+         <div id="CAOLR" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/spatial_olrmap_CA_small.gif" width=400 alt="Spatial map of MJO OLR anomalies from CA">
+         </div>
+         <div id="CATLON" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/tlon_olr_CA_small.gif" width=354 alt="Time-Longitude of MJO OLR anomalies from CA">
+         </div>
+         <div id="CAVDAY8" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/stat_verif8D_small.gif" width=369 alt="7-Day Verification of MJO index from CA">
+         </div>
+         <div id="CAVDAY15" style="display:none;">
+          <img src="/products/precip/CWlink/MJO/stat_verif15D_small.gif" width=369 alt="15-Day Verification of MJO index from CA">
+         </div>
+         <div id="EWP" style="display:none;">
+          <img src="/products/people/wd52qz/mjo/chi/ewp.gif" width=400 alt="EWP forecast of 200-hpa Velocity Potential">
+         </div>
+         <div id="GFS" style="display:none;">
+          <img src="/products/people/wd52qz/mjo/chi/gfs.gif" width=400 alt="GFS forecast of 200-hpa Velocity Potential">
+         </div>
+         <div id="CFS" style="display:none;">
+          <img src="/products/people/wd52qz/mjo/chi/cfs.gif" width=400 alt="CFS forecast of 200-hpa Velocity Potential">
+         </div>
+        </td>
+      </tr>
+     </table>
+    </td>
+   </tr>
+  </table>
+ </td>
+</tr>
+<tr><td>&nbsp;</td></tr>
+ 
+<tr>
+ <td><a name="clivar"></a>
+  <ul>
+   <li type="square"><font face="verdana,arial,serif" size="3"><strong>MJO Task Force Dynamical Model MJO Forecasts</strong></font><br><br></li>
+  </ul>
+ </td>
+</tr>
+
+<tr>
+ <td>
+  The U.S. CLIVAR program instituted a MJO working group to study and develop diagnostics and metrics related to various components related to the MJO during 2006. A subgroup was organized to focus on MJO operational prediction and was tasked to develop a MJO forecast metric for comparison of dynamical models from operational global prediction systems. The decision was made for NCEP / CPC to host the application, display, and evaluation of these MJO model forecasts. During 2010, the group was reformulated as the WCRP/WWRP-THORPEX YOTC Task Force. Below are links to the MJO model forecasts, the MJO Task Force home page and the U.S. CLIVAR MJO Working Group original home page.
+ </td>
+</tr>
+
+<tr><td>&nbsp;</td></tr>
+<tr>
+ <td>
+ <a href="/products/precip/CWlink/MJO/CLIVAR/clivar_wh.shtml">
+  Operational Realtime Dynamical Model MJO Forecasts</a>
+ </td>
+</tr>
+
+<tr>
+ <td>
+  <a href="http://www.ucar.edu/yotc/mjo.html">WCRP/WWRP-THORPEX YOTC MJO Task Force Home Page</a>
+ </td>
+</tr>
+
+<tr>
+ <td>
+  <a href="http://www.usclivar.org/mjo.php">U.S. CLIVAR MJO Working Group Home Page</a>
+ </td>
+</tr>
+
+<tr><td>&nbsp;</td></tr>
+<tr>
+ <td>
+  <p align="right"><a href="#list"><font size="2">[Back to the Top]</font></a></p>
+ </td>
+</tr>
+<tr><td>&nbsp;</td></tr>
+
+<tr>
+ <td><a name="other"></a>
+  <ul>
+   <li type="square"><font face="verdana,arial,serif" size="3"><strong>Additional MJO Products</strong></font><br><br></li>
+  </ul>
+ </td>
+</tr>
+
+<tr>
+ <td>
+  <ul>
+   <li><font size="+1">Time-Longitude Sections of MJO-Associated Anomalies Only</font></li>
+  </ul>
+ </td>
+</tr>
+
+<tr>
+ <td>
+  <table style="border-color: black; border-style: solid; border-width: thin;" border="3" cellPadding="2" cellSpacing="0" width="540" align="center" name="Tabs">
+   <tr>
+    <td>
+     <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/tlonhov_u850.shtml">850-hPa Zonal Wind</a>
+    </td>
+    <td>
+     <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/tlonhov_u200.shtml">200-hPa Zonal Wind</a>
+    </td>
+    <td>
+     <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/tlonhov_chi200.shtml">200-hPa Vel Potential</a>
+    </td>
+    <td>
+     <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/tlonhov_chi850.shtml">850-hPa Vel Potential</a>
+    </td>
+   </tr>
+  </table>
+ </td>
+</tr>
+<tr><td>&nbsp;</td></tr>
+
+<tr>
+ <td>
+  <ul>
+   <li><font size="+1" color="#FF0000"><a href="http://www.cpc.ncep.noaa.gov/products/people/wd52qz/mjo/mjo_chi.shtml">Velocity Potential EWP / GFS / CFS MJO Prediction</a></font>
+<li><font size="+1" color="#FF0000"><a href="http://www.cpc.ncep.noaa.gov/products/people/wd52qz/mjo/mjo_psi.shtml">Streamfunction EWP / GFS / CFS MJO Prediction</a></font>
+  </ul>
+ </td>
+</tr>
+<tr>
+ <td>
+  <ul>
+   <li><font size="+1" color="#FF0000"><a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/MJO/index.primjo.html">Global tropics benefits/hazards briefing sequence web page</a></font>
+  </ul>
+ </td>
+</tr>
+<tr><td>&nbsp;</td></tr>
+<tr>
+ <td>
+  <p align="right"><a href="#list"><font size="2">[Back to the Top]</font></a></p>
+ </td>
+</tr>
+
+<tr>
+ <td><a name="discussion"></a>
+  <ul>
+   <li type="square"><font face="verdana,arial,serif" size="3"><strong>Expert Discussions</strong></font><br><br></li>
+  </ul>
+ </td>
+</tr>
+
+<tr>
+ <td>
+  <ul>
+   <li><font face="verdana,arial,serif" size="2"><a href="/products/precip/CWlink/MJO/mjoupdate.ppt">MJO Weekly Update (PPT)</a>&nbsp;<a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.microsoft.com/downloads/details.aspx?FamilyId=428D5727-43AB-4F24-90B7-A94784AF71A4&displaylang=en"><img src="/www_images/PP.gif" alt="Powerpoint Viewer 2003" align="middle"></a></font></li>
+   <li><font face="verdana,arial,serif" size="2"><a href="/products/precip/CWlink/MJO/mjoupdate.pdf">MJO Weekly Update (PDF)</a>&nbsp;<a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.adobe.com/products/acrobat/readstep2.html"><img src="/www_images/pdf.gif" alt="Adobe PDF Reader" align="middle"></a></font></li>
+   <li><font face="verdana,arial,serif" size="2"><a href="/products/precip/CWlink/MJO/ARCHIVE/">MJO Update Archive</a></font><br><br></li>
+   <font color="#FF0000"><strong>(Comments/Suggestions? Send to: <A href="mailto:Jon.Gottschalck@noaa.gov">Jon Gottschalck</A>)</strong></font>
+  </ul>
+ </td>
+</tr>
+<tr>
+<td>
+<table style="border-color : black" bgcolor="FFFF99" cellspacing="0" cellpadding="0" border="2">
+<tr>
+ <td>
+ <font face="verdana,arial,serif" size="2">
+  A <a href="http://www.cpc.ncep.noaa.gov/products/precip/CWlink/ghazards/index.php"> Global Tropics Hazards and Benefits Outlook</a> that incorporates the current state and anticipated evolution of the MJO as input can be found as part of CPC's expert assessments.
+</font> 
+</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr><td>&nbsp;</td></tr>
+
+<tr>
+ <td>
+  <p align="right"><a href="#list"><font face="verdana,arial" size="2">[Back to the Top]</font></a></p>
+ </td>
+</tr>
+
+<tr><td>&nbsp;</td></tr>
+<tr>
+  <td><a name="composite"></a>
+   <ul>
+    <li type="square"><font face="verdana,arial,serif" size="3"><strong>Composites</strong></font><br><br></li>
+     <ul>
+       <li type="disc"><font face="verdana,arial,serif" size="2"><strong><a href="/products/precip/CWlink/MJO/LaggedComposites/">Lagged Composites</a></strong></font>&nbsp;<img src="/www_images/new.gif"></li>
+       <li type="disc"><font face="verdana,arial,serif" size="2"><strong><a href="/products/precip/CWlink/MJO/Composites/Temperature/">U.S. Temperature</a></strong></font></li>
+       <li type="disc"><font face="verdana,arial,serif" size="2"><strong><a href="/products/precip/CWlink/MJO/Composites/Precipitation/">U.S. Precipitation</a></strong></font></li>
+       <li type="disc"><font face="verdana,arial,serif" size="2"><strong><a href="/products/precip/CWlink/MJO/Composites/Tropical/">Tropical</a></strong></font></li>
+     </ul>
+   </ul>
+  </td>
+</tr>
+
+
+
+<tr>
+  <td>
+   <p align="right"><a href="#list"><font face="verdana,arial" size="2">[Back to the Top]</font></a></p>
+  </td>
+</tr>
+
+<tr>
+  <td><a name="educational material"></a>
+   <ul>
+    <li type="square"><font face="verdana,arial,serif" size="3"><strong>Educational Material</strong></font><br><br></li>
+   </ul>
+  </td>
+</tr>
+
+<tr>
+ <td>
+  <ul>
+   <li><font face="verdana,arial,serif" size="2"><a href="./MJO_1page_factsheet.pdf">MJO 1-Page Fact Sheet (PDF)</a>&nbsp;<a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.adobe.com/products/acrobat/readstep2.html"><img src="/www_images/pdf.gif" alt="Adobe PDF Reader" align="middle"></a></font></li>
+  </ul>
+ </td>
+</tr>
+
+<tr>
+  <td>
+   <ul>
+    <li><font face="verdana,arial,serif" size="2"><a href="./MJO_summary.pdf">MJO Detailed Information (PDF)</a>&nbsp;<a href="http://www.nws.noaa.gov/cgi-bin/nwsexit.pl?url=http://www.adobe.com/products/acrobat/readstep2.html"><img src="/www_images/pdf.gif" alt="Adobe PDF Reader" align="middle"></a></font></li>
+   </ul>
+  </td>
+</tr>
+
+<tr>
+ <td>
+  <p align="right"><a href="#list"><font face="verdana,arial" size="2">[Back to the Top]</font></a></p>
+ </td>
+</tr>
+
+<tr>
+ <td><a name="publication"></a>
+  <ul>
+   <li type="square"><font face="verdana,arial,serif" size="3"><strong>Publications</strong></font><br></li>
+  </ul>
+  <table align="center" width="90%">
+   <tr>
+    <td>
+     <p ALIGN="JUSTIFY"><font face="verdana,arial,serif" size="2">Higgins, R. W., and S. D. Schubert, 1996: Simulations of persistent North Pacific circulation anomalies and interhemispheric teleconnections.  J. Atmos. Sci., 53, 188-207.</font></p>
+     <p ALIGN="JUSTIFY"><font face="verdana,arial,serif" size="2">Higgins, R. W., and K. C. Mo, 1997:  Persistent North Pacific circulation anomalies and the tropical intraseasonal oscillation.  J. Climate, 10, 223-244.</font></p>
+     <p ALIGN="JUSTIFY"><font face="verdana,arial,serif" size="2">Higgins, R. W., J. K. Schemm, W. Shi and A. Leetmaa, 2000a: Extreme precipitation events in the western United States related to tropical forcing. J. Climate, 13,793-820.</font></p>
+     <p ALIGN="JUSTIFY"><font face="verdana,arial,serif" size="2">Higgins, R. W., and W. Shi, 2001: Intercomparison of the principal modes of interannual and intraseasonal variability of the North American Monsoon System. J. Climate, 14, 403-417.</font></p>
+     <p ALIGN="JUSTIFY"><font face="verdana,arial,serif" size="2">L'Heureux, M. L. and R. W. Higgins, 2008: Boreal Winter Links between the Madden-Julian Oscillation and the Arctic Oscillation. J. Climate, In press.</font></p>
+     <p ALIGN="JUSTIFY"><font face="verdana,arial,serif" size="2">Kousky, V. and M. Kayano, 1994: Principal modes of outgoing longwave radiation and 250-mb circulation for the South American sector. J. Climate, 1994, 1131-1143.</font></p>
+     <p ALIGN="JUSTIFY"><font face="verdana,arial,serif" size="2">Kayano, M. and V. Kousky, 1999: Intraseasonal (30-60 day) variability in the global tropics: principal modes and their evolution. Tellus, 51, 373-386.</font></p>
+     <p ALIGN="JUSTIFY"><font face="verdana,arial,serif" size="2">Mo, K. C. and R. W. Higgins, 1998: Tropical influences on California precipitation. J. Climate, 11, 412-430.</font></p>
+     <p ALIGN="JUSTIFY"><font face="verdana,arial,serif" size="2">Seo, K., W. Wang, J. Gottschalck, Q. Zhang, J. Schemm, W. Higgins and A. Kumar, 2008: Evaluation of MJO Forecast Skill from several statistical and dynamical forecast models, J. Climate, Submitted.</font></p>
+     <p ALIGN="JUSTIFY"><font face="verdana,arial,serif" size="2">Wheeler, M. and H. Hendon, 2004: An All-Season Real-Time Multivariate MJO Index: Development of an Index for Monitoring and Prediction. Mon. Wea. Rev., 132, 1917-1932.</font></p>
+     <p ALIGN="JUSTIFY"><font face="verdana,arial,serif" size="2">Zhang, C. and J. Gottschalck, 2002: SST Anomalies of ENSO and the Madden-Julian Oscillation in the Equatorial Pacific. Journal of Climate, 15, 2429-2445.</font></p>
+    </td>
+   </tr>
+  </table>
+ </td>
+</tr>
+
+<tr>
+ <td>
+  <p align="right"><a href="#list"><font face="verdana,arial" size="2">[Back to the Top]</font></a></p>
+ </td>
+</tr>
+
+</table>
+
+
+
+            <!-- This is the body content file of the current sub-directory. -->
+      <TABLE cellSpacing="0" cellPadding="0" width="99%" border="0">
+	<TBODY>
+		<TR>
+			<TD colSpan="3"><HR></TD>
+		</TR>
+		<TR vAlign="top">
+			<TD class="gray">
+				<A href="http://www.noaa.gov/" class="homepagelinks"><SPAN class="gray">NOAA/</SPAN></A>
+				<A href="http://www.nws.noaa.gov/" class="homepagelinks"><SPAN class="gray">National Weather Service</SPAN></A><BR>
+				<A href="http://www.ncep.noaa.gov/" class="homepagelinks"><SPAN class="gray">National Centers for Environmental Prediction</SPAN></a><BR>
+				Climate Prediction Center<BR>
+				5830 University Research Court <BR>
+				College Park, Maryland 20740 <BR>
+				Page Author:<A href="/comment-form.html" class="homepagelinks"><SPAN class="gray"> Climate Prediction Center Internet Team</SPAN></A><BR>
+				Page last modified: December 12, 2005
+			</TD>
+			<TD>
+				<A href="http://www.weather.gov/disclaimer.php" class="homepagelinks">
+				<SPAN class="gray">Disclaimer</SPAN></A><br>
+				<A href="http://www.cio.noaa.gov/Policy_Programs/info_quality.html" class="homepagelinks">
+				<SPAN class="gray">Information Quality</SPAN></A><br>
+				<A href="http://www.nws.noaa.gov/credits.php" class="homepagelinks">
+				<SPAN class="gray">Credits</SPAN></A><br>
+				<A href="http://www.nws.noaa.gov/glossary/" class="homepagelinks">
+				<SPAN class="gray">Glossary</SPAN></A><br>
+			</TD>
+			<TD align="right"><A href="http://www.weather.gov/privacy.php" class="homepagelinks">
+				<SPAN class="gray">Privacy Policy</SPAN></A><br>
+				<A href="http://www.rdc.noaa.gov/%7Efoia/" class="homepagelinks">
+				<SPAN class="gray">Freedom of Information Act (FOIA)</SPAN></A><br>
+				<A href="http://www.nws.noaa.gov/admin.php" class="homepagelinks">
+				<SPAN class="gray">About Us</SPAN></A><br>
+				<A href="http://www.nws.noaa.gov/careers.php" class="homepagelinks">
+				<SPAN class="gray">Career Opportunities</SPAN></A><br>
+			</TD>
+		</TR>
+	</TBODY>
+</TABLE>
+   <!-- Use virtual include, because this should be in a common place within your DocumentRoot. -->
+    </td>
+  </tr> 
+</table>
+</body>
+</html>

@@ -1,0 +1,1789 @@
+{
+  "captured_at": "2026-06-04T03:19:04.238344+00:00",
+  "phase": "post",
+  "records": [
+    {
+      "category": "documentation",
+      "description": "heat_index2 Agent Instructions",
+      "family": "docs",
+      "mtime": 1780542887.6742313,
+      "path": "AGENTS.md",
+      "signature": "2a9bfc920fc2efc1bcff2bfefdba3dfc25ebff05",
+      "size": 1428
+    },
+    {
+      "category": "documentation",
+      "description": "heat_index2 Agent Instructions",
+      "family": "docs",
+      "mtime": 1780542896.203239,
+      "path": "ANTIGRAVITY.md",
+      "signature": "2a9bfc920fc2efc1bcff2bfefdba3dfc25ebff05",
+      "size": 1428
+    },
+    {
+      "category": "documentation",
+      "description": "heat_index2 Agent Instructions",
+      "family": "docs",
+      "mtime": 1780542896.203239,
+      "path": "CLAUDE.md",
+      "signature": "2a9bfc920fc2efc1bcff2bfefdba3dfc25ebff05",
+      "size": 1428
+    },
+    {
+      "category": "documentation",
+      "description": "Domain Configuration Implementation Summary",
+      "family": "docs",
+      "mtime": 1766019136.8131242,
+      "path": "DOMAIN_IMPLEMENTATION_SUMMARY.md",
+      "signature": "ae07e57f9eb9f75947c3c78c07deb433e684d4ac",
+      "size": 4527
+    },
+    {
+      "category": "documentation",
+      "description": "AMSR-2 Microwave Data Download - Summary",
+      "family": "docs",
+      "mtime": 1766016973.2454557,
+      "path": "DOWNLOAD_SUMMARY.md",
+      "signature": "ed1c2645e8800a36b5f0b394be71b535245572fe",
+      "size": 5071
+    },
+    {
+      "category": "documentation",
+      "description": "heat_index2 Agent Instructions",
+      "family": "docs",
+      "mtime": 1780542896.203239,
+      "path": "GEMINI.md",
+      "signature": "2a9bfc920fc2efc1bcff2bfefdba3dfc25ebff05",
+      "size": 1428
+    },
+    {
+      "category": "documentation",
+      "description": "AMSR-2 Microwave Data Download Guide",
+      "family": "docs",
+      "mtime": 1766019110.341116,
+      "path": "README_AMSR2.md",
+      "signature": "5639066429629eb47155cd8ced931a60fa5f75db",
+      "size": 3970
+    },
+    {
+      "category": "python",
+      "description": "AMSR-2 Configuration Module",
+      "family": "utility",
+      "mtime": 1766966990.1199033,
+      "path": "amsr2_config.py",
+      "signature": "541c5db1f7d080d628c70a511b10b1bcd14ac51f",
+      "size": 1727
+    },
+    {
+      "category": "log",
+      "description": "Amsr2 download",
+      "family": "logs",
+      "mtime": 1766024871.567469,
+      "path": "amsr2_download.log",
+      "signature": "9b4ee51006481db6b8c47aae2cb2e98c282a6edc",
+      "size": 512
+    },
+    {
+      "category": "log",
+      "description": "Amsr2 verification",
+      "family": "logs",
+      "mtime": 1766019153.5321298,
+      "path": "amsr2_verification.log",
+      "signature": "2b6b00ce3040cf2cc04cdb29b96f5e7852a86c49",
+      "size": 0
+    },
+    {
+      "category": "log",
+      "description": "Audit download era5 parallel",
+      "family": "logs",
+      "mtime": 1769413201.615929,
+      "path": "audit_download_era5_parallel.log",
+      "signature": "60235b482be0cd6dd1723b9e2771d431004868e2",
+      "size": 1927
+    },
+    {
+      "category": "python",
+      "description": "================================================================================",
+      "family": "audit",
+      "mtime": 1769413153.7809021,
+      "path": "audit_download_era5_parallel.py",
+      "signature": "0ed3df69ba1ed1a2b7fbda708c556e6f6d8cb5d9",
+      "size": 20033
+    },
+    {
+      "category": "log",
+      "description": "Audit download himawari parallel",
+      "family": "logs",
+      "mtime": 1767920779.8507104,
+      "path": "audit_download_himawari_parallel.log",
+      "signature": "8b951af897913d5d84eb6015ad668dbb886b3344",
+      "size": 2503
+    },
+    {
+      "category": "python",
+      "description": "Audit download himawari parallel",
+      "family": "audit",
+      "mtime": 1769663896.395465,
+      "path": "audit_download_himawari_parallel.py",
+      "signature": "7c40162082e5495ce4f98edb58a79909ce8a9079",
+      "size": 6365
+    },
+    {
+      "category": "log",
+      "description": "Audit download himawari parallel 2025",
+      "family": "logs",
+      "mtime": 1769908568.1538846,
+      "path": "audit_download_himawari_parallel_2025.log",
+      "signature": "d376b0d2cb66ccad906bf4bc44a4382c4aa5b26b",
+      "size": 1477
+    },
+    {
+      "category": "log",
+      "description": "Audit download jaxa parallel",
+      "family": "logs",
+      "mtime": 1767917924.3372462,
+      "path": "audit_download_jaxa_parallel.log",
+      "signature": "23c8dc9cd4928507691b4d84a163f6adaeaea68a",
+      "size": 9922
+    },
+    {
+      "category": "python",
+      "description": "Audit download jaxa parallel",
+      "family": "audit",
+      "mtime": 1769415983.0699396,
+      "path": "audit_download_jaxa_parallel.py",
+      "signature": "53b6210f0aa48b5c7fa528f67f7441ccd00e6c98",
+      "size": 6795
+    },
+    {
+      "category": "log",
+      "description": "Audit download jaxa parallel2",
+      "family": "logs",
+      "mtime": 1769416262.6400988,
+      "path": "audit_download_jaxa_parallel2.log",
+      "signature": "28c4c46413553c954887f31f87f4e99f538c4164",
+      "size": 45851
+    },
+    {
+      "category": "log",
+      "description": "Audit download modis aqua parallel",
+      "family": "logs",
+      "mtime": 1769155461.5618339,
+      "path": "audit_download_modis_aqua_parallel.log",
+      "signature": "5c904afc7e230f96508ba984af2c93e976df1853",
+      "size": 19895
+    },
+    {
+      "category": "python",
+      "description": "Audit download modis aqua parallel",
+      "family": "audit",
+      "mtime": 1769155350.133782,
+      "path": "audit_download_modis_aqua_parallel.py",
+      "signature": "91890a7360ecd24564f78b6165b3360ce19c5011",
+      "size": 10252
+    },
+    {
+      "category": "log",
+      "description": "Audit download modis terra parallel",
+      "family": "logs",
+      "mtime": 1769154350.1033144,
+      "path": "audit_download_modis_terra_parallel.log",
+      "signature": "d3cdd732d572eb59ff51ffeee0a48e0bdbeecb2c",
+      "size": 15957
+    },
+    {
+      "category": "python",
+      "description": "Audit download modis terra parallel",
+      "family": "audit",
+      "mtime": 1767918570.4667945,
+      "path": "audit_download_modis_terra_parallel.py",
+      "signature": "5a82efc5a1188a3303cfbf12147ac7e6dfd48208",
+      "size": 11197
+    },
+    {
+      "category": "log",
+      "description": "Audit download nasa",
+      "family": "logs",
+      "mtime": 1767749229.7120261,
+      "path": "audit_download_nasa.log",
+      "signature": "affb10c5bae236023f0e152f5d47a06a1eddc16c",
+      "size": 13351
+    },
+    {
+      "category": "python",
+      "description": "Audit download nasa",
+      "family": "audit",
+      "mtime": 1767749188.5819826,
+      "path": "audit_download_nasa.py",
+      "signature": "39b74b0c4cb93cbff43088cf2eb496f9826aa525",
+      "size": 4737
+    },
+    {
+      "category": "log",
+      "description": "Audit download smap",
+      "family": "logs",
+      "mtime": 1769156342.452245,
+      "path": "audit_download_smap.log",
+      "signature": "110c9fb0722c0f9cb6efd4abc179fe07c6f296ba",
+      "size": 2700807
+    },
+    {
+      "category": "python",
+      "description": "SMAP L4 Soil Moisture Data Integrity Audit Script",
+      "family": "audit",
+      "mtime": 1769134764.5950212,
+      "path": "audit_download_smap.py",
+      "signature": "b8f3739eb156326d9eeec9ee90e426da056bf5b6",
+      "size": 35950
+    },
+    {
+      "category": "log",
+      "description": "Audit gpm imerg parallel",
+      "family": "logs",
+      "mtime": 1773399581.0223377,
+      "path": "audit_gpm_imerg_parallel.log",
+      "signature": "db4f33e68b9d621a7789a1656b2ac40a6a040a35",
+      "size": 2172
+    },
+    {
+      "category": "python",
+      "description": "GPM IMERG Forensic Audit V3 (Variable Agnostic & Optimized)",
+      "family": "audit",
+      "mtime": 1780543139.589459,
+      "path": "audit_gpm_imerg_parallel.py",
+      "signature": "d1b655cd7943c1e7c589265ee66de54abbfc549e",
+      "size": 13320
+    },
+    {
+      "category": "log",
+      "description": "Audit gpm imerg parallel finalRun",
+      "family": "logs",
+      "mtime": 1769395520.069707,
+      "path": "audit_gpm_imerg_parallel_finalRun.log",
+      "signature": "8ca98f576f22f4c3eb81629353fb5b2fe55e9ef1",
+      "size": 2008
+    },
+    {
+      "category": "report",
+      "description": "Audit report 20260108 204925",
+      "family": "reports",
+      "mtime": 1767923428.4120889,
+      "path": "audit_report_20260108_204925.csv",
+      "signature": "8fb1f7bf8e1cca5d7aecf02e15365da9d2352e28",
+      "size": 1550657
+    },
+    {
+      "category": "report",
+      "description": "Audit report 20260123 024511",
+      "family": "reports",
+      "mtime": 1769154350.0853145,
+      "path": "audit_report_20260123_024511.csv",
+      "signature": "5d43baacb618b86b6114f700dda0298a5eaaca7e",
+      "size": 1559030
+    },
+    {
+      "category": "log",
+      "description": "Audit titanium 20260108 204925",
+      "family": "logs",
+      "mtime": 1767923428.436089,
+      "path": "audit_titanium_20260108_204925.log",
+      "signature": "98787c2cc0444a1b7e698b990fdc1ed4ef76b7c1",
+      "size": 15886
+    },
+    {
+      "category": "log",
+      "description": "Audit titanium 20260123 024511",
+      "family": "logs",
+      "mtime": 1769154350.1033144,
+      "path": "audit_titanium_20260123_024511.log",
+      "signature": "c95107db38ea8b9efc07642c71aa1fc1629ffc37",
+      "size": 15886
+    },
+    {
+      "category": "other",
+      "description": "Bom mjo",
+      "family": "other",
+      "mtime": 1766721798.0919547,
+      "path": "bom_mjo.html",
+      "signature": "be29ff715b42614fd81a531b47e5517f5094417e",
+      "size": 1387
+    },
+    {
+      "category": "python",
+      "description": "Check harmony",
+      "family": "validation",
+      "mtime": 1766033789.0346856,
+      "path": "check_harmony.py",
+      "signature": "877983c25b15537eb2aabd5517c333965fa98fd5",
+      "size": 46
+    },
+    {
+      "category": "log",
+      "description": "Clean jaxa",
+      "family": "logs",
+      "mtime": 1767756614.769583,
+      "path": "clean_jaxa.log",
+      "signature": "2aa8a2e3a469d5d9158214fbc3f1d333d99bf56a",
+      "size": 406874
+    },
+    {
+      "category": "python",
+      "description": "Clean jaxa",
+      "family": "repair",
+      "mtime": 1767756573.8485422,
+      "path": "clean_jaxa.py",
+      "signature": "c88b1d9afd9a435ff879921296089de293514194",
+      "size": 1310
+    },
+    {
+      "category": "log",
+      "description": "Dem verification epsg code",
+      "family": "logs",
+      "mtime": 1769489220.5302904,
+      "path": "dem_verification_epsg_code.log",
+      "signature": "1a2f971c7d0f84c0f828b4cd1f5cf22c5798c783",
+      "size": 146
+    },
+    {
+      "category": "python",
+      "description": "Dem verification epsg code",
+      "family": "utility",
+      "mtime": 1769489216.0982866,
+      "path": "dem_verification_epsg_code.py",
+      "signature": "ba2a88d7854e83a5207cc0c23e463c1718fbdaae",
+      "size": 673
+    },
+    {
+      "category": "documentation",
+      "description": "System Flows",
+      "family": "docs",
+      "mtime": 1780542869.9932153,
+      "path": "docs/agents/SYSTEM_FLOWS.md",
+      "signature": "1a6784cf6b951d62b9f88b220f5b6b7b199d0d8e",
+      "size": 4148
+    },
+    {
+      "category": "shell",
+      "description": "AMSR-2 Data Download Script",
+      "family": "acquisition",
+      "mtime": 1765958739.4906354,
+      "path": "download_amsr2.sh",
+      "signature": "1a6b261ce27ffb8399a814644e529f0ade0696e0",
+      "size": 1032
+    },
+    {
+      "category": "python",
+      "description": "AMSR-2 Microwave Data Downloader for G-Portal (JAXA)",
+      "family": "acquisition",
+      "mtime": 1766024049.297855,
+      "path": "download_amsr2_data.py",
+      "signature": "094dd40d9a966c331093299c39a704a4db393e0e",
+      "size": 12667
+    },
+    {
+      "category": "shell",
+      "description": "Directory for raw data",
+      "family": "acquisition",
+      "mtime": 1773026808.3429477,
+      "path": "download_drivers.sh",
+      "signature": "a2885f8cc1647df6c46796a70771d1002d64aa0b",
+      "size": 1343
+    },
+    {
+      "category": "log",
+      "description": "Download era5 land",
+      "family": "logs",
+      "mtime": 1766081045.783091,
+      "path": "download_era5_land.log",
+      "signature": "85ecba5b12ba405828752a0089abc203dccc3ca3",
+      "size": 420619
+    },
+    {
+      "category": "python",
+      "description": "Download era5 land",
+      "family": "acquisition",
+      "mtime": 1766966983.9368985,
+      "path": "download_era5_land.py",
+      "signature": "e1d2f6257af0e19e6c5ea9c70febbb473ba02ab2",
+      "size": 2032
+    },
+    {
+      "category": "log",
+      "description": "Download era5 pressure",
+      "family": "logs",
+      "mtime": 1766133765.2797558,
+      "path": "download_era5_pressure.log",
+      "signature": "033b46445a478ac203b0ef79e0d1adc34ea75560",
+      "size": 112659
+    },
+    {
+      "category": "python",
+      "description": "Download era5 pressure",
+      "family": "acquisition",
+      "mtime": 1766966971.9188893,
+      "path": "download_era5_pressure.py",
+      "signature": "b230a91f2d94b295e9793d2414432c64a32e2a85",
+      "size": 2151
+    },
+    {
+      "category": "log",
+      "description": "Download era5 supplement",
+      "family": "logs",
+      "mtime": 1766136290.6386383,
+      "path": "download_era5_supplement.log",
+      "signature": "96b400e9a13405caf8dbc721344bd0e5e764d649",
+      "size": 181032
+    },
+    {
+      "category": "python",
+      "description": "Download era5 supplement",
+      "family": "acquisition",
+      "mtime": 1766966977.2788935,
+      "path": "download_era5_supplement.py",
+      "signature": "abf84aa6c5e28aa90681724097a30a78516c5a54",
+      "size": 2086
+    },
+    {
+      "category": "log",
+      "description": "Download gpm imerg",
+      "family": "logs",
+      "mtime": 1780543092.7224166,
+      "path": "download_gpm_imerg.log",
+      "signature": "72fc1c3b74804f7d57ea568f31c7b8b21be8c855",
+      "size": 6627921
+    },
+    {
+      "category": "log",
+      "description": "Download gpm imerg late",
+      "family": "logs",
+      "mtime": 1769427843.4693942,
+      "path": "download_gpm_imerg_late.log",
+      "signature": "a485e00bcd098c6b798fb9d1ea77c3316db51f54",
+      "size": 3819912
+    },
+    {
+      "category": "python",
+      "description": "GPM IMERG Final Run (Half-Hourly) Download Script",
+      "family": "acquisition",
+      "mtime": 1780543139.589459,
+      "path": "download_gpm_imerg_parallel_finalRun.py",
+      "signature": "b004bbbcc1c81c41f099799b07a29ed97ee09155",
+      "size": 37167
+    },
+    {
+      "category": "log",
+      "description": "Download gpm imerg parallel finalRun2",
+      "family": "logs",
+      "mtime": 1773381024.1643627,
+      "path": "download_gpm_imerg_parallel_finalRun2.log",
+      "signature": "38b69bd43f5e99c556893b1585fb7abe07f7720a",
+      "size": 339970
+    },
+    {
+      "category": "log",
+      "description": "Download gpm imerg parallel lateRun",
+      "family": "logs",
+      "mtime": 1769475500.8765905,
+      "path": "download_gpm_imerg_parallel_lateRun.log",
+      "signature": "0c2043e14e8de675cf7ae59bc4d355b68e1f3b78",
+      "size": 20219
+    },
+    {
+      "category": "python",
+      "description": "GPM IMERG \" MODE\" Downloader (Late Run 2025)",
+      "family": "acquisition",
+      "mtime": 1769474535.789441,
+      "path": "download_gpm_imerg_parallel_lateRun.py",
+      "signature": "95989c5c3ea5fd427a65d137100a79f1cf7760a6",
+      "size": 12106
+    },
+    {
+      "category": "log",
+      "description": "Download himawari",
+      "family": "logs",
+      "mtime": 1766174712.1844292,
+      "path": "download_himawari.log",
+      "signature": "ae4ae68aab2ddddaafe4799eaa7b8178a8de8630",
+      "size": 466784
+    },
+    {
+      "category": "log",
+      "description": "Download himawari arp",
+      "family": "logs",
+      "mtime": 1766997402.9551053,
+      "path": "download_himawari_arp.log",
+      "signature": "57e0a94db6b514116dab4bdbee1168575089275f",
+      "size": 1372478
+    },
+    {
+      "category": "python",
+      "description": "Download himawari arp",
+      "family": "acquisition",
+      "mtime": 1766967010.1249185,
+      "path": "download_himawari_arp.py",
+      "signature": "71f266a1617c976e6381bde3cf01a5b90bbcf856",
+      "size": 9350
+    },
+    {
+      "category": "log",
+      "description": "Download himawari arp2",
+      "family": "logs",
+      "mtime": 1766997402.9561052,
+      "path": "download_himawari_arp2.log",
+      "signature": "1581373b4dad343b3489da520bbeb983bc94e4c3",
+      "size": 580330
+    },
+    {
+      "category": "log",
+      "description": "Download himawari integrated",
+      "family": "logs",
+      "mtime": 1767149712.5181434,
+      "path": "download_himawari_integrated.log",
+      "signature": "a6baedd95f2bd71d8201b8ea98958d7ab3d5226c",
+      "size": 20061
+    },
+    {
+      "category": "python",
+      "description": "Download himawari integrated",
+      "family": "acquisition",
+      "mtime": 1767148775.9491851,
+      "path": "download_himawari_integrated.py",
+      "signature": "3516b63d3d52548713d555157ff94ad8e6981919",
+      "size": 11163
+    },
+    {
+      "category": "log",
+      "description": "Download himawari parallel",
+      "family": "logs",
+      "mtime": 1767806353.6015348,
+      "path": "download_himawari_parallel.log",
+      "signature": "7fd9c75fb64d92e5bc71027646c28ba01f384c4a",
+      "size": 129894
+    },
+    {
+      "category": "python",
+      "description": "Download himawari parallel",
+      "family": "acquisition",
+      "mtime": 1767831913.4959862,
+      "path": "download_himawari_parallel.py",
+      "signature": "9f528f5c884716c961365472114f0030eee2d0af",
+      "size": 12301
+    },
+    {
+      "category": "log",
+      "description": "Download himawari parallel 2025",
+      "family": "logs",
+      "mtime": 1769922363.040013,
+      "path": "download_himawari_parallel_2025.log",
+      "signature": "2f5e0b539f483a295079fbcc531a699e448ae7f4",
+      "size": 25008
+    },
+    {
+      "category": "log",
+      "description": "Download himawari parallel last",
+      "family": "logs",
+      "mtime": 1767832018.475078,
+      "path": "download_himawari_parallel_last.log",
+      "signature": "8377fc802a632309b0cad5f26f86563d026bf95c",
+      "size": 208
+    },
+    {
+      "category": "log",
+      "description": "Download himawari resume",
+      "family": "logs",
+      "mtime": 1766717841.9828234,
+      "path": "download_himawari_resume.log",
+      "signature": "544d2ca89bc298425560404e0c28d6c837b9d22c",
+      "size": 314893
+    },
+    {
+      "category": "log",
+      "description": "Download jaxa",
+      "family": "logs",
+      "mtime": 1767747265.5339592,
+      "path": "download_jaxa.log",
+      "signature": "3060f563f07da10920a86b0009c9ac2389bc8910",
+      "size": 100036
+    },
+    {
+      "category": "python",
+      "description": "Download jaxa",
+      "family": "acquisition",
+      "mtime": 1767142710.81528,
+      "path": "download_jaxa.py",
+      "signature": "4215147c236727cceb42e00041a1e2b43b04acb3",
+      "size": 3859
+    },
+    {
+      "category": "log",
+      "description": "Download jaxa parallel",
+      "family": "logs",
+      "mtime": 1767833383.7162907,
+      "path": "download_jaxa_parallel.log",
+      "signature": "97c6aff3ddcd2783b84c26d27e5a8a4e2348d766",
+      "size": 24173
+    },
+    {
+      "category": "python",
+      "description": "Download jaxa parallel",
+      "family": "acquisition",
+      "mtime": 1767831565.2426815,
+      "path": "download_jaxa_parallel.py",
+      "signature": "a15064c3ce609de222c5f3ea8e194899b94ff23a",
+      "size": 7231
+    },
+    {
+      "category": "log",
+      "description": "Download jaxa surgical",
+      "family": "logs",
+      "mtime": 1767921586.7924325,
+      "path": "download_jaxa_surgical.log",
+      "signature": "28f5a865a7efd2eee5b8e969a1206339cf89f8d0",
+      "size": 392
+    },
+    {
+      "category": "python",
+      "description": "Download jaxa surgical",
+      "family": "acquisition",
+      "mtime": 1767919441.186534,
+      "path": "download_jaxa_surgical.py",
+      "signature": "737cb5f62d61c61de5c40c486693adf5f85e0600",
+      "size": 7365
+    },
+    {
+      "category": "log",
+      "description": "Download modis",
+      "family": "logs",
+      "mtime": 1769153434.887928,
+      "path": "download_modis.log",
+      "signature": "98ba638cccac582118c3a445e5f40be3e5bc6465",
+      "size": 1975077
+    },
+    {
+      "category": "log",
+      "description": "Download modis aqua",
+      "family": "logs",
+      "mtime": 1766723351.0808682,
+      "path": "download_modis_aqua.log",
+      "signature": "8a7f45354684df3fcd0206aa88029e25100185c1",
+      "size": 80922
+    },
+    {
+      "category": "python",
+      "description": "Download modis aqua",
+      "family": "acquisition",
+      "mtime": 1766719998.4626837,
+      "path": "download_modis_aqua.py",
+      "signature": "5b0d83c046c07b204bb506eb15b76e3341f2cf2c",
+      "size": 2824
+    },
+    {
+      "category": "log",
+      "description": "Download modis terra",
+      "family": "logs",
+      "mtime": 1769153434.887928,
+      "path": "download_modis_terra.log",
+      "signature": "5e492d461a6f6e6f7e21d9a86ea406b25c58b034",
+      "size": 1480003
+    },
+    {
+      "category": "python",
+      "description": "Download modis terra",
+      "family": "acquisition",
+      "mtime": 1766720484.3983006,
+      "path": "download_modis_terra.py",
+      "signature": "9cf099bb383927eca432c55da79b7e564adf3dab",
+      "size": 3818
+    },
+    {
+      "category": "log",
+      "description": "Download nasa",
+      "family": "logs",
+      "mtime": 1767149055.2234435,
+      "path": "download_nasa.log",
+      "signature": "427d5274cd1401ca48e3922f0f13af81e2b1493b",
+      "size": 243
+    },
+    {
+      "category": "python",
+      "description": "Download nasa",
+      "family": "acquisition",
+      "mtime": 1767749170.905964,
+      "path": "download_nasa.py",
+      "signature": "c1d37e1ddbe7ad481eb1d317447ddf8817f6333d",
+      "size": 1041
+    },
+    {
+      "category": "log",
+      "description": "Download smap",
+      "family": "logs",
+      "mtime": 1769157674.5438645,
+      "path": "download_smap.log",
+      "signature": "e2a1b74cb055993f23d1630ed7fd414b13b2b4ca",
+      "size": 1676
+    },
+    {
+      "category": "python",
+      "description": "SMAP L4 Soil Moisture Download Script - Robust Version",
+      "family": "acquisition",
+      "mtime": 1769155709.1619494,
+      "path": "download_smap.py",
+      "signature": "f407e6e7e48ebbdfe9a4468a85ffd202b0b85efb",
+      "size": 21057
+    },
+    {
+      "category": "log",
+      "description": "Download smap2",
+      "family": "logs",
+      "mtime": 1766976998.7997496,
+      "path": "download_smap2.log",
+      "signature": "e4654c75d60c02cad59266b6cfc2a9d298957a80",
+      "size": 557187
+    },
+    {
+      "category": "log",
+      "description": "Download smap parallel",
+      "family": "logs",
+      "mtime": 1769198297.3801103,
+      "path": "download_smap_parallel.log",
+      "signature": "6aab5a7dc6a0bf0973496c1ace6ac7dc01df5ad0",
+      "size": 7906548
+    },
+    {
+      "category": "python",
+      "description": "SMAP L4 High-Performance Downloader (Xeon/Rocky Linux Optimized)",
+      "family": "acquisition",
+      "mtime": 1769157780.6869125,
+      "path": "download_smap_parallel.py",
+      "signature": "cb064edc6d238f57e841ebb277a0148059646a25",
+      "size": 12542
+    },
+    {
+      "category": "python",
+      "description": "Fix progress json",
+      "family": "repair",
+      "mtime": 1769157430.3977535,
+      "path": "fix_progress_json.py",
+      "signature": "63d953580b8c530bb620e7de257022728a981abd",
+      "size": 2010
+    },
+    {
+      "category": "log",
+      "description": "Generate missing report jaxa",
+      "family": "logs",
+      "mtime": 1767921775.8076007,
+      "path": "generate_missing_report_jaxa.log",
+      "signature": "a79dfab810ad80e481081eb714313c5ea100d04c",
+      "size": 17585
+    },
+    {
+      "category": "python",
+      "description": "Generate missing report jaxa",
+      "family": "repair",
+      "mtime": 1767919175.0523052,
+      "path": "generate_missing_report_jaxa.py",
+      "signature": "9c08b1f89f576eaba3e4976885849ce8f7c34070",
+      "size": 2768
+    },
+    {
+      "category": "log",
+      "description": "Gpm imerg audit",
+      "family": "logs",
+      "mtime": 1769393551.8605077,
+      "path": "gpm_imerg_audit.log",
+      "signature": "e00a833bcc47ecc731f3bc619be1b76b213173fb",
+      "size": 1896
+    },
+    {
+      "category": "log",
+      "description": "Gpm imerg audit fixed",
+      "family": "logs",
+      "mtime": 1769394214.604001,
+      "path": "gpm_imerg_audit_fixed.log",
+      "signature": "28ad8e39912d68d203565fc40aa25122f5ac2fe1",
+      "size": 1208
+    },
+    {
+      "category": "report",
+      "description": "Gpm imerg audit report",
+      "family": "reports",
+      "mtime": 1769394214.604001,
+      "path": "gpm_imerg_audit_report.csv",
+      "signature": "7a3a7a70f6c4b18af13e6116ca08c198aa69a1d0",
+      "size": 2443406
+    },
+    {
+      "category": "report",
+      "description": "Gpm imerg audit report 2024",
+      "family": "reports",
+      "mtime": 1773399581.0223377,
+      "path": "gpm_imerg_audit_report_2024.csv",
+      "signature": "0954f32d320bde621c901f9bc3c0744b4d2bbc91",
+      "size": 3018997
+    },
+    {
+      "category": "report",
+      "description": "Gpm imerg audit report v3",
+      "family": "reports",
+      "mtime": 1773383732.0114725,
+      "path": "gpm_imerg_audit_report_v3.csv",
+      "signature": "7b78a4734655341936b6fcd343ac37e281d0657d",
+      "size": 683332
+    },
+    {
+      "category": "log",
+      "description": "Gpm imerg audit v2",
+      "family": "logs",
+      "mtime": 1769394703.6282704,
+      "path": "gpm_imerg_audit_v2.log",
+      "signature": "57df426b5d12b087d0b5e5c1d2ed45a18d247269",
+      "size": 2018
+    },
+    {
+      "category": "log",
+      "description": "Gpm imerg audit v3",
+      "family": "logs",
+      "mtime": 1780543092.7264166,
+      "path": "gpm_imerg_audit_v3.log",
+      "signature": "02c161132eb5d628130f57e0c520a5573ffe12a5",
+      "size": 9579
+    },
+    {
+      "category": "log",
+      "description": "Himawari audit",
+      "family": "logs",
+      "mtime": 1769908568.1538846,
+      "path": "himawari_audit.log",
+      "signature": "fc0e51a5d6bdc79d0f156c3b34294f696ca467f5",
+      "size": 5902
+    },
+    {
+      "category": "report",
+      "description": "Himawari audit report",
+      "family": "reports",
+      "mtime": 1769908568.1538846,
+      "path": "himawari_audit_report.csv",
+      "signature": "3402b5a088af3357d25b54f2921d2174edb14f07",
+      "size": 1262120
+    },
+    {
+      "category": "log",
+      "description": "Himawari omega",
+      "family": "logs",
+      "mtime": 1769921890.3107018,
+      "path": "himawari_omega.log",
+      "signature": "b07792663e852ab87db538b334298ce8256291f4",
+      "size": 218666
+    },
+    {
+      "category": "log",
+      "description": "Himawari parallel",
+      "family": "logs",
+      "mtime": 1767727927.77425,
+      "path": "himawari_parallel.log",
+      "signature": "a2f45a7b34513736d37aa9c75bf4d93240839eff",
+      "size": 88928
+    },
+    {
+      "category": "log",
+      "description": "Himawari production",
+      "family": "logs",
+      "mtime": 1767149712.3041432,
+      "path": "himawari_production.log",
+      "signature": "fc878b149383c239a3a9d77e2fdaf276162fd78d",
+      "size": 24174
+    },
+    {
+      "category": "log",
+      "description": "Himawari repair",
+      "family": "logs",
+      "mtime": 1767922242.354017,
+      "path": "himawari_repair.log",
+      "signature": "e30f6d7e2aa1b5e0fcc89ef6ef406beb7df45e7b",
+      "size": 0
+    },
+    {
+      "category": "python",
+      "description": "Inspect variables",
+      "family": "utility",
+      "mtime": 1766032192.2976534,
+      "path": "inspect_variables.py",
+      "signature": "2cafdaef685ee3ef1e980e6611779ceefdf30739",
+      "size": 1716
+    },
+    {
+      "category": "report",
+      "description": "Missing dates log",
+      "family": "reports",
+      "mtime": 1767921607.2074506,
+      "path": "missing_dates_log.csv",
+      "signature": "792b7edf6e0ebc35d3135b58db0888db8f99366f",
+      "size": 13175
+    },
+    {
+      "category": "log",
+      "description": "Modis audit integrity",
+      "family": "logs",
+      "mtime": 1769155461.5618339,
+      "path": "modis_audit_integrity.log",
+      "signature": "5cdcd42ae5f15734767b63fbf01978bb07353b2b",
+      "size": 937
+    },
+    {
+      "category": "report",
+      "description": "Modis audit report",
+      "family": "reports",
+      "mtime": 1769155461.5618339,
+      "path": "modis_audit_report.csv",
+      "signature": "e26c7812758d684bf245cc39188576590a413a18",
+      "size": 794663
+    },
+    {
+      "category": "log",
+      "description": "Modis terra check coverage",
+      "family": "logs",
+      "mtime": 1769154232.5622635,
+      "path": "modis_terra_check_coverage.log",
+      "signature": "ee2dafef0d55d3f8a9a81743d9926d228fab064a",
+      "size": 666
+    },
+    {
+      "category": "python",
+      "description": "Modis terra check coverage",
+      "family": "utility",
+      "mtime": 1769154228.0952616,
+      "path": "modis_terra_check_coverage.py",
+      "signature": "b108df23d018e9ce9c309a233385b8175f90b372",
+      "size": 2772
+    },
+    {
+      "category": "log",
+      "description": "Modis terra fill gaps",
+      "family": "logs",
+      "mtime": 1769154808.1055286,
+      "path": "modis_terra_fill_gaps.log",
+      "signature": "bcc85c067065a4bccbb6864d1c7124120ddde5f1",
+      "size": 5340
+    },
+    {
+      "category": "python",
+      "description": "Modis terra fill gaps",
+      "family": "utility",
+      "mtime": 1769154743.4084983,
+      "path": "modis_terra_fill_gaps.py",
+      "signature": "9fc87f086fc424da34a916e6e829d52b7ab3c8f0",
+      "size": 985
+    },
+    {
+      "category": "log",
+      "description": "Modis terra purge corrupt",
+      "family": "logs",
+      "mtime": 1769154387.511332,
+      "path": "modis_terra_purge_corrupt.log",
+      "signature": "43f281ef93477a50498906a4ef3e2eb18de85e0c",
+      "size": 349
+    },
+    {
+      "category": "python",
+      "description": "Modis terra purge corrupt",
+      "family": "utility",
+      "mtime": 1769153089.4087799,
+      "path": "modis_terra_purge_corrupt.py",
+      "signature": "4d237d712616774222f6667656f816eaa1088b87",
+      "size": 2660
+    },
+    {
+      "category": "other",
+      "description": "Noaa mjo page",
+      "family": "other",
+      "mtime": 1766733714.4740894,
+      "path": "noaa_mjo_page.html",
+      "signature": "7c7dba97ddca66bdd7d1e4fc156441a3cacc1f4c",
+      "size": 45626
+    },
+    {
+      "category": "python",
+      "description": "Process drivers",
+      "family": "processing",
+      "mtime": 1773026931.2130232,
+      "path": "process_drivers.py",
+      "signature": "999a4b5cfcc4d9371924f24260b2e9207b69d2c8",
+      "size": 21517
+    },
+    {
+      "category": "other",
+      "description": "Psl index",
+      "family": "other",
+      "mtime": 1766733758.9771433,
+      "path": "psl_index.html",
+      "signature": "024c43eed102dd4d06b2136998697f486a092ce9",
+      "size": 27718
+    },
+    {
+      "category": "log",
+      "description": "Repair himawari",
+      "family": "logs",
+      "mtime": 1767922319.2000864,
+      "path": "repair_himawari.log",
+      "signature": "788c06a72f47d044226f8a3a70bac1378892dcf9",
+      "size": 16862
+    },
+    {
+      "category": "python",
+      "description": "Repair himawari",
+      "family": "repair",
+      "mtime": 1767922181.2959619,
+      "path": "repair_himawari.py",
+      "signature": "9329022c981aeaa1072b7f8dd3e0fc996d421c60",
+      "size": 9665
+    },
+    {
+      "category": "other",
+      "description": "Requirements",
+      "family": "other",
+      "mtime": 1767142674.2622404,
+      "path": "requirements.txt",
+      "signature": "c12642352e17371c233651f8145b62e1b26e3d5f",
+      "size": 43
+    },
+    {
+      "category": "python",
+      "description": "Harness utilities for Sync Quad agent session refresh in heat_index2.",
+      "family": "utility",
+      "mtime": 1780542869.9922154,
+      "path": "scripts/__init__.py",
+      "signature": "80f784cdbd3e51129fec335518bdbb95b1635863",
+      "size": 76
+    },
+    {
+      "category": "python",
+      "description": "Build compact repo context for Sync Quad agent session refresh.",
+      "family": "utility",
+      "mtime": 1780542869.9932153,
+      "path": "scripts/build_agent_context.py",
+      "signature": "d8b1ce063bf35cae7e661497b00affe706644ded",
+      "size": 23465
+    },
+    {
+      "category": "shell",
+      "description": "Check arch staleness",
+      "family": "validation",
+      "mtime": 1773022724.0225363,
+      "path": "scripts/check_arch_staleness.sh",
+      "signature": "cf9ae5e62d474ea2c5ae8a5b4e3b47750948fe9f",
+      "size": 1204
+    },
+    {
+      "category": "shell",
+      "description": "Post session",
+      "family": "utility",
+      "mtime": 1780542869.9922154,
+      "path": "scripts/post_session.sh",
+      "signature": "d0e3430d5ce4d5ace5195934a84fa13fd13e251c",
+      "size": 326
+    },
+    {
+      "category": "shell",
+      "description": "Pre session",
+      "family": "utility",
+      "mtime": 1780542869.9922154,
+      "path": "scripts/pre_session.sh",
+      "signature": "70a43055df33d434250d85cbdfb49bc8237f01a5",
+      "size": 324
+    },
+    {
+      "category": "shell",
+      "description": "Resource profile",
+      "family": "utility",
+      "mtime": 1773022724.0215364,
+      "path": "scripts/resource_profile.sh",
+      "signature": "9c03a7964cb6d96392605b162163ed64098a58ed",
+      "size": 925
+    },
+    {
+      "category": "python",
+      "description": "Keep the root Sync Quad agent instruction files identical.",
+      "family": "utility",
+      "mtime": 1780542869.9912155,
+      "path": "scripts/sync_quad_agent_docs.py",
+      "signature": "420713bf7316d635f2fb75920c10b1097d5a4772",
+      "size": 3691
+    },
+    {
+      "category": "python",
+      "description": "Compatibility wrapper for the Sync Quad agent doc sync.",
+      "family": "utility",
+      "mtime": 1780542869.9922154,
+      "path": "scripts/sync_tri_agent_docs.py",
+      "signature": "6caed8d45adbccbfc02b21ba32db188ad5352999",
+      "size": 369
+    },
+    {
+      "category": "log",
+      "description": "Smap audit",
+      "family": "logs",
+      "mtime": 1769156342.454245,
+      "path": "smap_audit.log",
+      "signature": "989af310b6e845ed4fa5ca1a3e1a5af22d0ca8f2",
+      "size": 54715
+    },
+    {
+      "category": "log",
+      "description": "Smap download",
+      "family": "logs",
+      "mtime": 1768810268.7072606,
+      "path": "smap_download.log",
+      "signature": "c48d8cf98333fb25b3e365f00ad333276d451b1f",
+      "size": 3253237
+    },
+    {
+      "category": "log",
+      "description": "Smap optimized",
+      "family": "logs",
+      "mtime": 1769198297.3801103,
+      "path": "smap_optimized.log",
+      "signature": "31b1368cc8a907cf180d5243df4e09692c219e62",
+      "size": 875147
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202001",
+      "family": "data",
+      "mtime": 1595319094.0,
+      "path": "station_data/2020/Hourly_PMSS_202001.xlsx",
+      "signature": "91bbdde97e5c443ad2986bb0bab0d8c2fee91b4b",
+      "size": 4642449
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202002",
+      "family": "data",
+      "mtime": 1617752792.0,
+      "path": "station_data/2020/Hourly_PMSS_202002.xlsx",
+      "signature": "c0392bd44e084e3c273222c188cb34a857d359be",
+      "size": 4120306
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202003",
+      "family": "data",
+      "mtime": 1595319156.0,
+      "path": "station_data/2020/Hourly_PMSS_202003.xlsx",
+      "signature": "6387e91a3d59e17df62ec3c103f1e15ea4d4f696",
+      "size": 4636469
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202004",
+      "family": "data",
+      "mtime": 1595319554.0,
+      "path": "station_data/2020/Hourly_PMSS_202004.xlsx",
+      "signature": "77d9be9480b2a5df45e7e81156fe1b2326196fa8",
+      "size": 4308885
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202005",
+      "family": "data",
+      "mtime": 1595319556.0,
+      "path": "station_data/2020/Hourly_PMSS_202005.xlsx",
+      "signature": "1dcff4afdde7f46aeee6e40403a93fd31bc66ab2",
+      "size": 4708970
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202006",
+      "family": "data",
+      "mtime": 1600306738.0,
+      "path": "station_data/2020/Hourly_PMSS_202006.xlsx",
+      "signature": "65de94c742a761f954fd310975c5f3a81149c260",
+      "size": 4580930
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202007",
+      "family": "data",
+      "mtime": 1597725852.0,
+      "path": "station_data/2020/Hourly_PMSS_202007.xlsx",
+      "signature": "2f102e72e6de252c9ea4cf71ad958d4dcdab2423",
+      "size": 4510806
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202008",
+      "family": "data",
+      "mtime": 1600049972.0,
+      "path": "station_data/2020/Hourly_PMSS_202008.xlsx",
+      "signature": "9966927a8696ca77dd1ed389add036729489801d",
+      "size": 4464622
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202009",
+      "family": "data",
+      "mtime": 1605758024.0,
+      "path": "station_data/2020/Hourly_PMSS_202009.xlsx",
+      "signature": "7e4d45a13248854ab7c4d9e9792c90a6b1996fe5",
+      "size": 4335316
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202010",
+      "family": "data",
+      "mtime": 1605757800.0,
+      "path": "station_data/2020/Hourly_PMSS_202010.xlsx",
+      "signature": "38eb58e34fcd2f85beb6ed902a36be5eca60b645",
+      "size": 4461259
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202011",
+      "family": "data",
+      "mtime": 1617697776.0,
+      "path": "station_data/2020/Hourly_PMSS_202011.xlsx",
+      "signature": "cb60a2913f0d1f0eba4e498456c2ce3d8f952e28",
+      "size": 4370746
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202012",
+      "family": "data",
+      "mtime": 1617698666.0,
+      "path": "station_data/2020/Hourly_PMSS_202012.xlsx",
+      "signature": "735c0afbde10d200cf85c3ad8d2676975f2c6385",
+      "size": 6058282
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202101",
+      "family": "data",
+      "mtime": 1617753040.0,
+      "path": "station_data/2021/Hourly_PMSS_202101.xlsx",
+      "signature": "1fc13b6ec88c7218055c1ef17f4207cddf80f855",
+      "size": 4451049
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202102",
+      "family": "data",
+      "mtime": 1617753110.0,
+      "path": "station_data/2021/Hourly_PMSS_202102.xlsx",
+      "signature": "fcc919834cc2ea05e6a7adbc9bda5dc1bda9368b",
+      "size": 3907183
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202103",
+      "family": "data",
+      "mtime": 1619149784.0,
+      "path": "station_data/2021/Hourly_PMSS_202103.xlsx",
+      "signature": "5ded592727f67f78e06e1c649390bbb02036f85d",
+      "size": 4689273
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202104",
+      "family": "data",
+      "mtime": 1621931720.0,
+      "path": "station_data/2021/Hourly_PMSS_202104.xlsx",
+      "signature": "e09a6c61a0793e9812dd6f14e5fc15b8de7481ad",
+      "size": 4586323
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202105",
+      "family": "data",
+      "mtime": 1625020278.0,
+      "path": "station_data/2021/Hourly_PMSS_202105.xlsx",
+      "signature": "4fb117d70b19a697012c73728c35e997aa6a48a8",
+      "size": 4773506
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202106",
+      "family": "data",
+      "mtime": 1627273084.0,
+      "path": "station_data/2021/Hourly_PMSS_202106.xlsx",
+      "signature": "0e401bfbe4773104fb7532f4c28c15c6e87b0a47",
+      "size": 4586515
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202107",
+      "family": "data",
+      "mtime": 1629783016.0,
+      "path": "station_data/2021/Hourly_PMSS_202107.xlsx",
+      "signature": "61c72d5e2b5e75eef6cc0b1ca6df7f432f45e80f",
+      "size": 4464292
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202108",
+      "family": "data",
+      "mtime": 1631859920.0,
+      "path": "station_data/2021/Hourly_PMSS_202108.xlsx",
+      "signature": "cc61fa9515fe3c65cd137728bbe514466e3f3f51",
+      "size": 4742744
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202109",
+      "family": "data",
+      "mtime": 1634803828.0,
+      "path": "station_data/2021/Hourly_PMSS_202109.xlsx",
+      "signature": "81421c045c7a4d1bb42079499644d6b20c02fa6c",
+      "size": 4337356
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202110",
+      "family": "data",
+      "mtime": 1636962668.0,
+      "path": "station_data/2021/Hourly_PMSS_202110.xlsx",
+      "signature": "63b6de783505969b8e9c7dba9c6cdd6d6f90e717",
+      "size": 4481180
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202111",
+      "family": "data",
+      "mtime": 1639642294.0,
+      "path": "station_data/2021/Hourly_PMSS_202111.xlsx",
+      "signature": "35cd588966ac2e3107b6a8e873ce88ed5444f756",
+      "size": 4598745
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202112",
+      "family": "data",
+      "mtime": 1642984528.0,
+      "path": "station_data/2021/Hourly_PMSS_202112.xlsx",
+      "signature": "e6050a95e2d98328965be9a6ad2d0b79e0913f17",
+      "size": 4501792
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202201",
+      "family": "data",
+      "mtime": 1658372212.0,
+      "path": "station_data/2022/Hourly_PMSS_202201.xls",
+      "signature": "447a46c1619b2ce9050315187055aeb7b2f09574",
+      "size": 7533056
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202202",
+      "family": "data",
+      "mtime": 1658372236.0,
+      "path": "station_data/2022/Hourly_PMSS_202202.xls",
+      "signature": "af45ca5921e3078bd47e2f82ec5411bb893d0e9a",
+      "size": 6961152
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202203",
+      "family": "data",
+      "mtime": 1658372264.0,
+      "path": "station_data/2022/Hourly_PMSS_202203.xls",
+      "signature": "e13241f1076ba902cd1efac96a6dc0e2a4699e37",
+      "size": 7582208
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202204",
+      "family": "data",
+      "mtime": 1658372288.0,
+      "path": "station_data/2022/Hourly_PMSS_202204.xls",
+      "signature": "15a1ed55c368f4dec20e4e307d3b96a26998f604",
+      "size": 7587328
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202205",
+      "family": "data",
+      "mtime": 1658372310.0,
+      "path": "station_data/2022/Hourly_PMSS_202205.xls",
+      "signature": "cd9deda2f1bb016d2fd03f1a2d030ad8af562716",
+      "size": 7857152
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202206",
+      "family": "data",
+      "mtime": 1658372162.0,
+      "path": "station_data/2022/Hourly_PMSS_202206.xls",
+      "signature": "f12c2edccc20f6f1d26125a934749abd147fcd11",
+      "size": 7693824
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202207",
+      "family": "data",
+      "mtime": 1663028836.0,
+      "path": "station_data/2022/Hourly_PMSS_202207.xls",
+      "signature": "4ec838ae966da47c4c8cbbea3c4c8d947ead7303",
+      "size": 7136256
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202208",
+      "family": "data",
+      "mtime": 1663812094.0,
+      "path": "station_data/2022/Hourly_PMSS_202208.xls",
+      "signature": "6e065e8261528c1e5217156818c4331cc5c0335a",
+      "size": 7150080
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202209",
+      "family": "data",
+      "mtime": 1668565966.0,
+      "path": "station_data/2022/Hourly_PMSS_202209.xls",
+      "signature": "b25b7f5cddc3d65083b5898cea0c8e78945cc5ba",
+      "size": 7602176
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202210",
+      "family": "data",
+      "mtime": 1668565932.0,
+      "path": "station_data/2022/Hourly_PMSS_202210.xls",
+      "signature": "0ab112dbaea40c91257270f1a2b2efaa8b80e62c",
+      "size": 7886848
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202211",
+      "family": "data",
+      "mtime": 1672303988.0,
+      "path": "station_data/2022/Hourly_PMSS_202211.xls",
+      "signature": "1608098bc5f1ccdfca3cefe9fc2cb71e7230d313",
+      "size": 6958592
+    },
+    {
+      "category": "data",
+      "description": "Hourly PMSS 202212",
+      "family": "data",
+      "mtime": 1676263432.0,
+      "path": "station_data/2022/Hourly_PMSS_202212.xls",
+      "signature": "23999803dd13836b461d4293e6949389aa4fc33e",
+      "size": 8017920
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202301",
+      "family": "reports",
+      "mtime": 1764748650.0,
+      "path": "station_data/2023/Hourly_PMSS_202301.csv",
+      "signature": "0c47ee6ec5954d5bc5c5f5f1e00f0fa1050a588a",
+      "size": 4041293
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202302",
+      "family": "reports",
+      "mtime": 1764748652.0,
+      "path": "station_data/2023/Hourly_PMSS_202302.csv",
+      "signature": "832e54a59ce5e69bae0128d24c49b3e011a978be",
+      "size": 3685401
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202303",
+      "family": "reports",
+      "mtime": 1764748654.0,
+      "path": "station_data/2023/Hourly_PMSS_202303.csv",
+      "signature": "902c7b7e3d018b6f2a6661ff536437ebc6589d95",
+      "size": 2606757
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202304",
+      "family": "reports",
+      "mtime": 1764748656.0,
+      "path": "station_data/2023/Hourly_PMSS_202304.csv",
+      "signature": "264b2a64dddda20d4b9f73fd7d48dfeec97977af",
+      "size": 2519757
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202305",
+      "family": "reports",
+      "mtime": 1764748660.0,
+      "path": "station_data/2023/Hourly_PMSS_202305.csv",
+      "signature": "9000072731d4f82d503c90ec0c56215ea5638477",
+      "size": 3901619
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202306",
+      "family": "reports",
+      "mtime": 1764748662.0,
+      "path": "station_data/2023/Hourly_PMSS_202306.csv",
+      "signature": "f312b1b4008aa497124f8c864d4d43881d460224",
+      "size": 3994971
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202307",
+      "family": "reports",
+      "mtime": 1764748666.0,
+      "path": "station_data/2023/Hourly_PMSS_202307.csv",
+      "signature": "2f530006b82a9ced8f42bd20f0b3cddb0895d38f",
+      "size": 4123750
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202308",
+      "family": "reports",
+      "mtime": 1764748668.0,
+      "path": "station_data/2023/Hourly_PMSS_202308.csv",
+      "signature": "75285b3f02f30d606876e96e2755d2785f6062b6",
+      "size": 4086164
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202309",
+      "family": "reports",
+      "mtime": 1764748670.0,
+      "path": "station_data/2023/Hourly_PMSS_202309.csv",
+      "signature": "77f416ac898b030d1fe8aad0ed2c3725248bceb5",
+      "size": 3918640
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202310",
+      "family": "reports",
+      "mtime": 1764748672.0,
+      "path": "station_data/2023/Hourly_PMSS_202310.csv",
+      "signature": "1920a2397018154ab74b91bc7ab6983746532962",
+      "size": 4229888
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202311",
+      "family": "reports",
+      "mtime": 1764748676.0,
+      "path": "station_data/2023/Hourly_PMSS_202311.csv",
+      "signature": "c6549207b8771954808dea3f426e2bf28b928b29",
+      "size": 4041110
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202312",
+      "family": "reports",
+      "mtime": 1764748678.0,
+      "path": "station_data/2023/Hourly_PMSS_202312.csv",
+      "signature": "ad9ffd8cc4d760651085e3ad1a7360a580d30827",
+      "size": 4177054
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202401",
+      "family": "reports",
+      "mtime": 1764748696.0,
+      "path": "station_data/2024/Hourly_PMSS_202401.csv",
+      "signature": "f28985a0fa13294c3ca8597e195085b5389c3b7f",
+      "size": 4119300
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202402",
+      "family": "reports",
+      "mtime": 1764748692.0,
+      "path": "station_data/2024/Hourly_PMSS_202402.csv",
+      "signature": "cecaed893eb79caee372430a2725a8c05977ea0e",
+      "size": 3838589
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202403",
+      "family": "reports",
+      "mtime": 1764748690.0,
+      "path": "station_data/2024/Hourly_PMSS_202403.csv",
+      "signature": "a82b57cd7831e6ca38af64775ce7906d1e1c0295",
+      "size": 4054577
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202404",
+      "family": "reports",
+      "mtime": 1764748688.0,
+      "path": "station_data/2024/Hourly_PMSS_202404.csv",
+      "signature": "c5541bea9eaecceab4ab3b414709bbef9633a9b1",
+      "size": 3977768
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202405",
+      "family": "reports",
+      "mtime": 1764748684.0,
+      "path": "station_data/2024/Hourly_PMSS_202405.csv",
+      "signature": "35bdb74defd536a96a7cae72589ffecbe286b779",
+      "size": 4120789
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202406",
+      "family": "reports",
+      "mtime": 1764748682.0,
+      "path": "station_data/2024/Hourly_PMSS_202406.csv",
+      "signature": "b9d4791dada18681f2d6fe75842ee32e29516b16",
+      "size": 3988006
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202407",
+      "family": "reports",
+      "mtime": 1764748714.0,
+      "path": "station_data/2024/Hourly_PMSS_202407.csv",
+      "signature": "267af900399c4c5451fdc743721a4a421b0f99b0",
+      "size": 4101499
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202408",
+      "family": "reports",
+      "mtime": 1764748712.0,
+      "path": "station_data/2024/Hourly_PMSS_202408.csv",
+      "signature": "67ce008f707c7ce5f8c25e062bbc8a4e655155dd",
+      "size": 4124535
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202409",
+      "family": "reports",
+      "mtime": 1764748710.0,
+      "path": "station_data/2024/Hourly_PMSS_202409.csv",
+      "signature": "74a2417d2cc0a28d310793b2ce10dc543da9fa3e",
+      "size": 3983897
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202410",
+      "family": "reports",
+      "mtime": 1764748708.0,
+      "path": "station_data/2024/Hourly_PMSS_202410.csv",
+      "signature": "30af4880655108831829e56de7c9aed748bf0987",
+      "size": 4133297
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202411",
+      "family": "reports",
+      "mtime": 1764748702.0,
+      "path": "station_data/2024/Hourly_PMSS_202411.csv",
+      "signature": "4870e42e34b195e92689f1de3482a7936686e103",
+      "size": 3994808
+    },
+    {
+      "category": "report",
+      "description": "Hourly PMSS 202412",
+      "family": "reports",
+      "mtime": 1764748700.0,
+      "path": "station_data/2024/Hourly_PMSS_202412.csv",
+      "signature": "504c9a6f4b8792733bc44f8e4aa9cab6d7a9cd94",
+      "size": 4068819
+    },
+    {
+      "category": "data",
+      "description": "Malaysia station data 2020 2024 clean",
+      "family": "data",
+      "mtime": 1765354740.0248563,
+      "path": "station_data/malaysia_station_data_2020_2024_clean.parquet",
+      "signature": "92f693a1ba97a5c838250538462d2a2bd4fb526f",
+      "size": 4470394
+    },
+    {
+      "category": "log",
+      "description": "Step1 batch ingest",
+      "family": "logs",
+      "mtime": 1765354740.0258565,
+      "path": "step1_batch_ingest.log",
+      "signature": "fa126e231833f75448570c514fe452013c5303cc",
+      "size": 247
+    },
+    {
+      "category": "python",
+      "description": "Step1 batch ingest",
+      "family": "processing",
+      "mtime": 1765354576.6170363,
+      "path": "step1_batch_ingest.py",
+      "signature": "286ee6d19452c79a5d82f00bc2cac4568c57a6cb",
+      "size": 4221
+    },
+    {
+      "category": "python",
+      "description": "AMSR-2 Domain Test Script",
+      "family": "validation",
+      "mtime": 1766019052.992098,
+      "path": "test_domain.py",
+      "signature": "bb7a6bd5929f8a2bf36f3fa3a559017ff104f448",
+      "size": 1445
+    },
+    {
+      "category": "python",
+      "description": "Test audit gpm imerg parallel",
+      "family": "validation",
+      "mtime": 1773384075.2325048,
+      "path": "tests/test_audit_gpm_imerg_parallel.py",
+      "signature": "51673c449fc86e097e67271698105dfc34ecf255",
+      "size": 1544
+    },
+    {
+      "category": "python",
+      "description": "Test download gpm imerg parallel finalRun",
+      "family": "validation",
+      "mtime": 1773384070.7555044,
+      "path": "tests/test_download_gpm_imerg_parallel_finalRun.py",
+      "signature": "f6ece4021b1b4e4fcb1a48cb98e80e69c54b29d6",
+      "size": 3343
+    },
+    {
+      "category": "python",
+      "description": "Test process drivers bsiso",
+      "family": "validation",
+      "mtime": 1773026840.1879673,
+      "path": "tests/test_process_drivers_bsiso.py",
+      "signature": "2015e49af688846eb481b036df6f108515af76f9",
+      "size": 4119
+    },
+    {
+      "category": "python",
+      "description": "Test process drivers status",
+      "family": "validation",
+      "mtime": 1773025295.7400165,
+      "path": "tests/test_process_drivers_status.py",
+      "signature": "ed85f7019a2ccdb1f7718690ef3d08ff788daca6",
+      "size": 3215
+    },
+    {
+      "category": "python",
+      "description": "Sync Quad agent harness tests.",
+      "family": "validation",
+      "mtime": 1780542954.3392916,
+      "path": "tests/test_quad_agent_harness.py",
+      "signature": "a187956eac37d54b498791beddd5a818cbee0e80",
+      "size": 4255
+    },
+    {
+      "category": "python",
+      "description": "Validate drivers",
+      "family": "validation",
+      "mtime": 1773025253.5739918,
+      "path": "validate_drivers.py",
+      "signature": "4c6617bf10aefe9c7c80ec35d490b8e0fb667f9c",
+      "size": 4877
+    },
+    {
+      "category": "python",
+      "description": "AMSR-2 Data Verification Script",
+      "family": "validation",
+      "mtime": 1766019019.5160878,
+      "path": "verify_amsr2_data.py",
+      "signature": "405879f83b215c8e82e3d6d7a928444945d2f2e6",
+      "size": 5433
+    }
+  ],
+  "version": 1
+}

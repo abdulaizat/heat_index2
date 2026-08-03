@@ -1,0 +1,20 @@
+{
+  "delta_counts": {
+    "added": 0,
+    "changed": 2,
+    "removed": 0
+  },
+  "generated_at": "2026-06-04T03:19:04.240627+00:00",
+  "pattern_count": 15,
+  "phase": "post",
+  "record_counts": {
+    "data": 37,
+    "documentation": 8,
+    "log": 61,
+    "other": 4,
+    "python": 50,
+    "report": 32,
+    "shell": 6
+  },
+  "reference_label": "current session start"
+}

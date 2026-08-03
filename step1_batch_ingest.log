@@ -1,0 +1,8 @@
+nohup: ignoring input
+🚀 Starting V3 Ingestion (WMO Priority)...
+
+📦 Concatenating...
+
+🎉 SUCCESS! Processed 60 files.
+📊 Total Rows: 1874120
+📄 Saved to: /home/NWP5/heat_index2/station_data/malaysia_station_data_2020_2024_clean.parquet

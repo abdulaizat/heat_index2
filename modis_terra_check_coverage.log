@@ -1,0 +1,25 @@
+nohup: ignoring input
+
+Analyzing coverage for MOD11A1 (Daily) in /mnt/AizatDrive/MOD11A1...
+Total Files Found: 5730
+Unique Dates Covered: 1814 / 1827
+Coverage: 99.29%
+[91m[WARNING] Missing 13 dates.[0m
+  - Missing: 2022-10-11
+  - Missing: 2022-10-12
+  - Missing: 2022-10-13
+  - Missing: 2022-10-14
+  - Missing: 2022-10-15
+  - ... and 8 more.
+
+Analyzing coverage for MOD13A2 (16-Day) in /mnt/AizatDrive/MOD13A2...
+Total Files Found: 464
+Unique Dates Covered: 116 / 114
+Coverage: 101.75%
+[91m[WARNING] Missing 92 dates.[0m
+  - Missing: 2021-01-03
+  - Missing: 2021-01-19
+  - Missing: 2021-02-04
+  - Missing: 2021-02-20
+  - Missing: 2021-03-08
+  - ... and 87 more.

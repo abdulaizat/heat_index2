@@ -1,0 +1,149 @@
+nohup: ignoring input
+2026-01-23 02:45:11,015 | INFO     | PID:1170713 | Detected 20 CPU Cores. Initializing High-Performance Audit Engine...
+2026-01-23 02:45:14,538 | INFO     | PID:1170713 | You're now authenticated with NASA Earthdata Login
+2026-01-23 02:45:19,101 | INFO     | PID:1170713 | --- FETCHING METADATA FOR MOD11A1 ---
+2026-01-23 02:45:20,388 | INFO     | PID:1170713 | Granules found: 5730
+2026-01-23 02:45:33,358 | INFO     | PID:1170713 | Metadata Retrieved: 5730 files expected.
+2026-01-23 02:45:33,358 | INFO     | PID:1170713 | Identifying orphans in /mnt/AizatDrive/MOD11A1...
+2026-01-23 02:45:33,565 | WARNING  | PID:1170713 | Found 2336 ORPHAN files (files not in current metadata).
+2026-01-23 02:45:33,585 | INFO     | PID:1170713 | SPAWNING 20 WORKER PROCESSES FOR DEEP INSPECTION...
+2026-01-23 02:45:33,941 | INFO     | PID:1170713 | Progress MOD11A1: 50/5730 | Safe: 7 | Corrupt/Missing: 0
+2026-01-23 02:45:34,052 | INFO     | PID:1170713 | Progress MOD11A1: 100/5730 | Safe: 11 | Corrupt/Missing: 0
+2026-01-23 02:45:34,177 | INFO     | PID:1170713 | Progress MOD11A1: 150/5730 | Safe: 18 | Corrupt/Missing: 0
+2026-01-23 02:45:34,307 | INFO     | PID:1170713 | Progress MOD11A1: 200/5730 | Safe: 21 | Corrupt/Missing: 0
+2026-01-23 02:45:34,445 | INFO     | PID:1170713 | Progress MOD11A1: 250/5730 | Safe: 25 | Corrupt/Missing: 0
+2026-01-23 02:45:34,594 | INFO     | PID:1170713 | Progress MOD11A1: 300/5730 | Safe: 27 | Corrupt/Missing: 0
+2026-01-23 02:45:34,696 | INFO     | PID:1170713 | Progress MOD11A1: 350/5730 | Safe: 38 | Corrupt/Missing: 0
+2026-01-23 02:45:34,767 | INFO     | PID:1170713 | Progress MOD11A1: 400/5730 | Safe: 60 | Corrupt/Missing: 0
+2026-01-23 02:45:34,873 | INFO     | PID:1170713 | Progress MOD11A1: 450/5730 | Safe: 68 | Corrupt/Missing: 0
+2026-01-23 02:45:34,980 | INFO     | PID:1170713 | Progress MOD11A1: 500/5730 | Safe: 72 | Corrupt/Missing: 0
+2026-01-23 02:45:35,104 | INFO     | PID:1170713 | Progress MOD11A1: 550/5730 | Safe: 75 | Corrupt/Missing: 0
+2026-01-23 02:45:35,235 | INFO     | PID:1170713 | Progress MOD11A1: 600/5730 | Safe: 77 | Corrupt/Missing: 0
+2026-01-23 02:45:35,345 | INFO     | PID:1170713 | Progress MOD11A1: 650/5730 | Safe: 85 | Corrupt/Missing: 0
+2026-01-23 02:45:35,461 | INFO     | PID:1170713 | Progress MOD11A1: 700/5730 | Safe: 89 | Corrupt/Missing: 0
+2026-01-23 02:45:35,907 | INFO     | PID:1170713 | Progress MOD11A1: 750/5730 | Safe: 95 | Corrupt/Missing: 0
+2026-01-23 02:45:36,027 | INFO     | PID:1170713 | Progress MOD11A1: 800/5730 | Safe: 99 | Corrupt/Missing: 0
+2026-01-23 02:45:36,143 | INFO     | PID:1170713 | Progress MOD11A1: 850/5730 | Safe: 105 | Corrupt/Missing: 0
+2026-01-23 02:45:36,267 | INFO     | PID:1170713 | Progress MOD11A1: 900/5730 | Safe: 110 | Corrupt/Missing: 0
+2026-01-23 02:45:36,385 | INFO     | PID:1170713 | Progress MOD11A1: 950/5730 | Safe: 117 | Corrupt/Missing: 0
+2026-01-23 02:45:36,502 | INFO     | PID:1170713 | Progress MOD11A1: 1000/5730 | Safe: 120 | Corrupt/Missing: 0
+2026-01-23 02:45:36,690 | INFO     | PID:1170713 | Progress MOD11A1: 1050/5730 | Safe: 129 | Corrupt/Missing: 0
+2026-01-23 02:45:36,793 | INFO     | PID:1170713 | Progress MOD11A1: 1100/5730 | Safe: 133 | Corrupt/Missing: 0
+2026-01-23 02:45:36,993 | INFO     | PID:1170713 | Progress MOD11A1: 1150/5730 | Safe: 136 | Corrupt/Missing: 0
+2026-01-23 02:45:37,092 | INFO     | PID:1170713 | Progress MOD11A1: 1200/5730 | Safe: 139 | Corrupt/Missing: 0
+2026-01-23 02:45:37,190 | INFO     | PID:1170713 | Progress MOD11A1: 1250/5730 | Safe: 148 | Corrupt/Missing: 0
+2026-01-23 02:45:37,293 | INFO     | PID:1170713 | Progress MOD11A1: 1300/5730 | Safe: 153 | Corrupt/Missing: 0
+2026-01-23 02:45:37,409 | INFO     | PID:1170713 | Progress MOD11A1: 1350/5730 | Safe: 154 | Corrupt/Missing: 0
+2026-01-23 02:45:37,520 | INFO     | PID:1170713 | Progress MOD11A1: 1400/5730 | Safe: 155 | Corrupt/Missing: 0
+2026-01-23 02:45:37,633 | INFO     | PID:1170713 | Progress MOD11A1: 1450/5730 | Safe: 155 | Corrupt/Missing: 0
+2026-01-23 02:45:37,923 | INFO     | PID:1170713 | Progress MOD11A1: 1500/5730 | Safe: 156 | Corrupt/Missing: 0
+2026-01-23 02:45:38,073 | INFO     | PID:1170713 | Progress MOD11A1: 1550/5730 | Safe: 158 | Corrupt/Missing: 0
+2026-01-23 02:45:38,176 | INFO     | PID:1170713 | Progress MOD11A1: 1600/5730 | Safe: 158 | Corrupt/Missing: 0
+2026-01-23 02:45:38,279 | INFO     | PID:1170713 | Progress MOD11A1: 1650/5730 | Safe: 161 | Corrupt/Missing: 0
+2026-01-23 02:45:38,394 | INFO     | PID:1170713 | Progress MOD11A1: 1700/5730 | Safe: 164 | Corrupt/Missing: 0
+2026-01-23 02:45:38,454 | INFO     | PID:1170713 | Progress MOD11A1: 1750/5730 | Safe: 190 | Corrupt/Missing: 0
+2026-01-23 02:45:38,552 | INFO     | PID:1170713 | Progress MOD11A1: 1800/5730 | Safe: 196 | Corrupt/Missing: 0
+2026-01-23 02:45:38,651 | INFO     | PID:1170713 | Progress MOD11A1: 1850/5730 | Safe: 201 | Corrupt/Missing: 0
+2026-01-23 02:45:38,755 | INFO     | PID:1170713 | Progress MOD11A1: 1900/5730 | Safe: 206 | Corrupt/Missing: 0
+2026-01-23 02:45:38,858 | INFO     | PID:1170713 | Progress MOD11A1: 1950/5730 | Safe: 213 | Corrupt/Missing: 0
+2026-01-23 02:45:38,988 | INFO     | PID:1170713 | Progress MOD11A1: 2000/5730 | Safe: 219 | Corrupt/Missing: 0
+2026-01-23 02:45:39,096 | INFO     | PID:1170713 | Progress MOD11A1: 2050/5730 | Safe: 227 | Corrupt/Missing: 0
+2026-01-23 02:45:39,201 | INFO     | PID:1170713 | Progress MOD11A1: 2100/5730 | Safe: 234 | Corrupt/Missing: 0
+2026-01-23 02:45:39,283 | INFO     | PID:1170713 | Progress MOD11A1: 2150/5730 | Safe: 243 | Corrupt/Missing: 0
+2026-01-23 02:45:39,385 | INFO     | PID:1170713 | Progress MOD11A1: 2200/5730 | Safe: 249 | Corrupt/Missing: 0
+2026-01-23 02:45:39,449 | INFO     | PID:1170713 | Progress MOD11A1: 2250/5730 | Safe: 271 | Corrupt/Missing: 0
+2026-01-23 02:45:39,557 | INFO     | PID:1170713 | Progress MOD11A1: 2300/5730 | Safe: 278 | Corrupt/Missing: 0
+2026-01-23 02:45:39,640 | INFO     | PID:1170713 | Progress MOD11A1: 2350/5730 | Safe: 299 | Corrupt/Missing: 0
+2026-01-23 02:45:39,680 | INFO     | PID:1170713 | Progress MOD11A1: 2400/5730 | Safe: 332 | Corrupt/Missing: 0
+2026-01-23 02:45:39,771 | INFO     | PID:1170713 | Progress MOD11A1: 2450/5730 | Safe: 341 | Corrupt/Missing: 0
+2026-01-23 02:45:39,871 | INFO     | PID:1170713 | Progress MOD11A1: 2500/5730 | Safe: 343 | Corrupt/Missing: 0
+2026-01-23 02:45:39,990 | INFO     | PID:1170713 | Progress MOD11A1: 2550/5730 | Safe: 349 | Corrupt/Missing: 0
+2026-01-23 02:45:40,102 | INFO     | PID:1170713 | Progress MOD11A1: 2600/5730 | Safe: 350 | Corrupt/Missing: 0
+2026-01-23 02:45:40,260 | INFO     | PID:1170713 | Progress MOD11A1: 2650/5730 | Safe: 357 | Corrupt/Missing: 0
+2026-01-23 02:45:40,316 | INFO     | PID:1170713 | Progress MOD11A1: 2700/5730 | Safe: 382 | Corrupt/Missing: 0
+2026-01-23 02:45:40,327 | INFO     | PID:1170713 | Progress MOD11A1: 2750/5730 | Safe: 431 | Corrupt/Missing: 0
+2026-01-23 02:45:40,334 | INFO     | PID:1170713 | Progress MOD11A1: 2800/5730 | Safe: 480 | Corrupt/Missing: 0
+2026-01-23 02:45:40,342 | INFO     | PID:1170713 | Progress MOD11A1: 2850/5730 | Safe: 530 | Corrupt/Missing: 0
+2026-01-23 02:45:40,349 | INFO     | PID:1170713 | Progress MOD11A1: 2900/5730 | Safe: 577 | Corrupt/Missing: 0
+2026-01-23 02:45:40,355 | INFO     | PID:1170713 | Progress MOD11A1: 2950/5730 | Safe: 626 | Corrupt/Missing: 0
+2026-01-23 02:45:40,363 | INFO     | PID:1170713 | Progress MOD11A1: 3000/5730 | Safe: 672 | Corrupt/Missing: 0
+2026-01-23 02:45:40,369 | INFO     | PID:1170713 | Progress MOD11A1: 3050/5730 | Safe: 721 | Corrupt/Missing: 0
+2026-01-23 02:45:40,377 | INFO     | PID:1170713 | Progress MOD11A1: 3100/5730 | Safe: 769 | Corrupt/Missing: 0
+2026-01-23 02:45:40,384 | INFO     | PID:1170713 | Progress MOD11A1: 3150/5730 | Safe: 818 | Corrupt/Missing: 0
+2026-01-23 02:45:40,391 | INFO     | PID:1170713 | Progress MOD11A1: 3200/5730 | Safe: 866 | Corrupt/Missing: 0
+2026-01-23 02:45:40,397 | INFO     | PID:1170713 | Progress MOD11A1: 3250/5730 | Safe: 915 | Corrupt/Missing: 0
+2026-01-23 02:45:40,404 | INFO     | PID:1170713 | Progress MOD11A1: 3300/5730 | Safe: 964 | Corrupt/Missing: 0
+2026-01-23 02:45:40,412 | INFO     | PID:1170713 | Progress MOD11A1: 3350/5730 | Safe: 1014 | Corrupt/Missing: 0
+2026-01-23 02:45:40,418 | INFO     | PID:1170713 | Progress MOD11A1: 3400/5730 | Safe: 1064 | Corrupt/Missing: 0
+2026-01-23 02:45:40,425 | INFO     | PID:1170713 | Progress MOD11A1: 3450/5730 | Safe: 1114 | Corrupt/Missing: 0
+2026-01-23 02:45:40,432 | INFO     | PID:1170713 | Progress MOD11A1: 3500/5730 | Safe: 1164 | Corrupt/Missing: 0
+2026-01-23 02:45:40,439 | INFO     | PID:1170713 | Progress MOD11A1: 3550/5730 | Safe: 1214 | Corrupt/Missing: 0
+2026-01-23 02:45:40,446 | INFO     | PID:1170713 | Progress MOD11A1: 3600/5730 | Safe: 1264 | Corrupt/Missing: 0
+2026-01-23 02:45:40,453 | INFO     | PID:1170713 | Progress MOD11A1: 3650/5730 | Safe: 1314 | Corrupt/Missing: 0
+2026-01-23 02:45:40,460 | INFO     | PID:1170713 | Progress MOD11A1: 3700/5730 | Safe: 1364 | Corrupt/Missing: 0
+2026-01-23 02:45:40,467 | INFO     | PID:1170713 | Progress MOD11A1: 3750/5730 | Safe: 1414 | Corrupt/Missing: 0
+2026-01-23 02:45:40,474 | INFO     | PID:1170713 | Progress MOD11A1: 3800/5730 | Safe: 1464 | Corrupt/Missing: 0
+2026-01-23 02:45:40,482 | INFO     | PID:1170713 | Progress MOD11A1: 3850/5730 | Safe: 1514 | Corrupt/Missing: 0
+2026-01-23 02:45:40,488 | INFO     | PID:1170713 | Progress MOD11A1: 3900/5730 | Safe: 1564 | Corrupt/Missing: 0
+2026-01-23 02:45:40,495 | INFO     | PID:1170713 | Progress MOD11A1: 3950/5730 | Safe: 1614 | Corrupt/Missing: 0
+2026-01-23 02:45:40,502 | INFO     | PID:1170713 | Progress MOD11A1: 4000/5730 | Safe: 1664 | Corrupt/Missing: 0
+2026-01-23 02:45:40,509 | INFO     | PID:1170713 | Progress MOD11A1: 4050/5730 | Safe: 1714 | Corrupt/Missing: 0
+2026-01-23 02:45:40,517 | INFO     | PID:1170713 | Progress MOD11A1: 4100/5730 | Safe: 1764 | Corrupt/Missing: 0
+2026-01-23 02:45:40,525 | INFO     | PID:1170713 | Progress MOD11A1: 4150/5730 | Safe: 1814 | Corrupt/Missing: 0
+2026-01-23 02:45:40,533 | INFO     | PID:1170713 | Progress MOD11A1: 4200/5730 | Safe: 1864 | Corrupt/Missing: 0
+2026-01-23 02:45:40,540 | INFO     | PID:1170713 | Progress MOD11A1: 4250/5730 | Safe: 1914 | Corrupt/Missing: 0
+2026-01-23 02:45:40,547 | INFO     | PID:1170713 | Progress MOD11A1: 4300/5730 | Safe: 1964 | Corrupt/Missing: 0
+2026-01-23 02:45:40,555 | INFO     | PID:1170713 | Progress MOD11A1: 4350/5730 | Safe: 2014 | Corrupt/Missing: 0
+2026-01-23 02:45:40,562 | INFO     | PID:1170713 | Progress MOD11A1: 4400/5730 | Safe: 2064 | Corrupt/Missing: 0
+2026-01-23 02:45:40,570 | INFO     | PID:1170713 | Progress MOD11A1: 4450/5730 | Safe: 2114 | Corrupt/Missing: 0
+2026-01-23 02:45:40,578 | INFO     | PID:1170713 | Progress MOD11A1: 4500/5730 | Safe: 2164 | Corrupt/Missing: 0
+2026-01-23 02:45:40,585 | INFO     | PID:1170713 | Progress MOD11A1: 4550/5730 | Safe: 2214 | Corrupt/Missing: 0
+2026-01-23 02:45:40,592 | INFO     | PID:1170713 | Progress MOD11A1: 4600/5730 | Safe: 2264 | Corrupt/Missing: 0
+2026-01-23 02:45:40,599 | INFO     | PID:1170713 | Progress MOD11A1: 4650/5730 | Safe: 2314 | Corrupt/Missing: 0
+2026-01-23 02:45:40,607 | INFO     | PID:1170713 | Progress MOD11A1: 4700/5730 | Safe: 2364 | Corrupt/Missing: 0
+2026-01-23 02:45:40,614 | INFO     | PID:1170713 | Progress MOD11A1: 4750/5730 | Safe: 2414 | Corrupt/Missing: 0
+2026-01-23 02:45:40,621 | INFO     | PID:1170713 | Progress MOD11A1: 4800/5730 | Safe: 2464 | Corrupt/Missing: 0
+2026-01-23 02:45:40,628 | INFO     | PID:1170713 | Progress MOD11A1: 4850/5730 | Safe: 2514 | Corrupt/Missing: 0
+2026-01-23 02:45:40,635 | INFO     | PID:1170713 | Progress MOD11A1: 4900/5730 | Safe: 2564 | Corrupt/Missing: 0
+2026-01-23 02:45:40,642 | INFO     | PID:1170713 | Progress MOD11A1: 4950/5730 | Safe: 2614 | Corrupt/Missing: 0
+2026-01-23 02:45:40,649 | INFO     | PID:1170713 | Progress MOD11A1: 5000/5730 | Safe: 2664 | Corrupt/Missing: 0
+2026-01-23 02:45:40,655 | INFO     | PID:1170713 | Progress MOD11A1: 5050/5730 | Safe: 2714 | Corrupt/Missing: 0
+2026-01-23 02:45:40,662 | INFO     | PID:1170713 | Progress MOD11A1: 5100/5730 | Safe: 2764 | Corrupt/Missing: 0
+2026-01-23 02:45:40,669 | INFO     | PID:1170713 | Progress MOD11A1: 5150/5730 | Safe: 2814 | Corrupt/Missing: 0
+2026-01-23 02:45:40,676 | INFO     | PID:1170713 | Progress MOD11A1: 5200/5730 | Safe: 2864 | Corrupt/Missing: 0
+2026-01-23 02:45:40,683 | INFO     | PID:1170713 | Progress MOD11A1: 5250/5730 | Safe: 2914 | Corrupt/Missing: 0
+2026-01-23 02:45:40,690 | INFO     | PID:1170713 | Progress MOD11A1: 5300/5730 | Safe: 2964 | Corrupt/Missing: 0
+2026-01-23 02:45:40,697 | INFO     | PID:1170713 | Progress MOD11A1: 5350/5730 | Safe: 3014 | Corrupt/Missing: 0
+2026-01-23 02:45:40,703 | INFO     | PID:1170713 | Progress MOD11A1: 5400/5730 | Safe: 3064 | Corrupt/Missing: 0
+2026-01-23 02:45:40,710 | INFO     | PID:1170713 | Progress MOD11A1: 5450/5730 | Safe: 3114 | Corrupt/Missing: 0
+2026-01-23 02:45:40,717 | INFO     | PID:1170713 | Progress MOD11A1: 5500/5730 | Safe: 3164 | Corrupt/Missing: 0
+2026-01-23 02:45:40,724 | INFO     | PID:1170713 | Progress MOD11A1: 5550/5730 | Safe: 3214 | Corrupt/Missing: 0
+2026-01-23 02:45:40,730 | INFO     | PID:1170713 | Progress MOD11A1: 5600/5730 | Safe: 3264 | Corrupt/Missing: 0
+2026-01-23 02:45:40,735 | INFO     | PID:1170713 | Progress MOD11A1: 5650/5730 | Safe: 3314 | Corrupt/Missing: 0
+2026-01-23 02:45:40,740 | INFO     | PID:1170713 | Progress MOD11A1: 5700/5730 | Safe: 3364 | Corrupt/Missing: 0
+2026-01-23 02:45:40,762 | INFO     | PID:1170713 | --- FETCHING METADATA FOR MOD13A2 ---
+2026-01-23 02:45:41,485 | INFO     | PID:1170713 | Granules found: 464
+2026-01-23 02:45:49,883 | INFO     | PID:1170713 | Metadata Retrieved: 464 files expected.
+2026-01-23 02:45:49,883 | INFO     | PID:1170713 | Identifying orphans in /mnt/AizatDrive/MOD13A2...
+2026-01-23 02:45:49,901 | INFO     | PID:1170713 | SPAWNING 20 WORKER PROCESSES FOR DEEP INSPECTION...
+2026-01-23 02:45:50,028 | INFO     | PID:1170713 | Progress MOD13A2: 50/464 | Safe: 3444 | Corrupt/Missing: 0
+2026-01-23 02:45:50,037 | INFO     | PID:1170713 | Progress MOD13A2: 100/464 | Safe: 3494 | Corrupt/Missing: 0
+2026-01-23 02:45:50,045 | INFO     | PID:1170713 | Progress MOD13A2: 150/464 | Safe: 3544 | Corrupt/Missing: 0
+2026-01-23 02:45:50,052 | INFO     | PID:1170713 | Progress MOD13A2: 200/464 | Safe: 3594 | Corrupt/Missing: 0
+2026-01-23 02:45:50,060 | INFO     | PID:1170713 | Progress MOD13A2: 250/464 | Safe: 3644 | Corrupt/Missing: 0
+2026-01-23 02:45:50,066 | INFO     | PID:1170713 | Progress MOD13A2: 300/464 | Safe: 3694 | Corrupt/Missing: 0
+2026-01-23 02:45:50,072 | INFO     | PID:1170713 | Progress MOD13A2: 350/464 | Safe: 3744 | Corrupt/Missing: 0
+2026-01-23 02:45:50,078 | INFO     | PID:1170713 | Progress MOD13A2: 400/464 | Safe: 3794 | Corrupt/Missing: 0
+2026-01-23 02:45:50,084 | INFO     | PID:1170713 | Progress MOD13A2: 450/464 | Safe: 3844 | Corrupt/Missing: 0
+2026-01-23 02:45:50,103 | INFO     | PID:1170713 | ============================================================
+2026-01-23 02:45:50,103 | INFO     | PID:1170713 | AUDIT COMPLETE in 39.09 seconds
+2026-01-23 02:45:50,103 | INFO     | PID:1170713 | TOTAL PROCESSED: 8530
+2026-01-23 02:45:50,103 | INFO     | PID:1170713 | VERIFIED SAFE:   3858
+2026-01-23 02:45:50,103 | INFO     | PID:1170713 | MISSING:         0
+2026-01-23 02:45:50,103 | INFO     | PID:1170713 | CORRUPT CHECKSUM:0
+2026-01-23 02:45:50,103 | INFO     | PID:1170713 | CORRUPT HEADER:  2336
+2026-01-23 02:45:50,103 | INFO     | PID:1170713 | ORPHANS:         2336
+2026-01-23 02:45:50,104 | INFO     | PID:1170713 | Detailed CSV Report: /home/NWP5/heat_index2/audit_report_20260123_024511.csv
+2026-01-23 02:45:50,104 | INFO     | PID:1170713 | ============================================================
+
+[92m*** SYSTEM INTEGRITY 100% VERIFIED ***[0m

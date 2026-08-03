@@ -1,0 +1,17 @@
+2026-01-25 21:21:52,754 [INFO] ============================================================
+2026-01-25 21:21:52,754 [INFO]        GPM IMERG FORENSIC AUDIT (FIXED)       
+2026-01-25 21:21:52,754 [INFO] ============================================================
+2026-01-25 21:21:52,754 [INFO] Target:         /mnt/AizatDrive/gpm_imerg_precipitationCal
+2026-01-25 21:21:52,754 [INFO] Extension Search: .HDF5, .h5, .nc4
+2026-01-25 21:21:52,754 [INFO] Workers:        16
+2026-01-25 21:21:52,754 [INFO] Performing Pre-flight filesystem check...
+2026-01-25 21:21:52,978 [INFO] Pre-flight Success. Found sample: 3B-HHR.MS.MRG.3IMERG.20250115-S010000-E012959.0060.V07B.HDF5
+2026-01-25 21:21:52,995 [INFO] Scanning 17520 slots...
+2026-01-25 21:23:34,521 [INFO] 
+============================================================
+2026-01-25 21:23:34,521 [INFO] Total Scanned: 17520
+2026-01-25 21:23:34,521 [INFO] OK (Verified): 0
+2026-01-25 21:23:34,521 [INFO] Missing:       5857
+2026-01-25 21:23:34,521 [INFO] Corrupt:       0
+2026-01-25 21:23:34,604 [INFO] Report saved: gpm_imerg_audit_report.csv
+2026-01-25 21:23:34,605 [WARNING] Note: High 'Missing' count might be due to NASA data latency (files not published yet).

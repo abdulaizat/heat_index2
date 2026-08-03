@@ -1,0 +1,30 @@
+nohup: ignoring input
+2026-01-26 02:39:29 | INFO     | AUDIT STARTED (Malaysia Optimized)
+2026-01-26 02:39:29 | INFO     | Auditing land: 60 files using 16 workers
+2026-01-26 02:39:36 | INFO     | Progress: 10/60 (P:10 W:0 F:0)
+2026-01-26 02:39:40 | INFO     | Progress: 20/60 (P:20 W:0 F:0)
+2026-01-26 02:39:42 | INFO     | Progress: 30/60 (P:30 W:0 F:0)
+2026-01-26 02:39:47 | INFO     | Progress: 40/60 (P:40 W:0 F:0)
+2026-01-26 02:39:50 | INFO     | Progress: 50/60 (P:50 W:0 F:0)
+2026-01-26 02:39:52 | INFO     | Progress: 60/60 (P:60 W:0 F:0)
+2026-01-26 02:39:52 | INFO     | Auditing supplement: 60 files using 16 workers
+2026-01-26 02:39:54 | INFO     | Progress: 10/60 (P:10 W:0 F:0)
+2026-01-26 02:39:55 | INFO     | Progress: 20/60 (P:20 W:0 F:0)
+2026-01-26 02:39:56 | INFO     | Progress: 30/60 (P:30 W:0 F:0)
+2026-01-26 02:39:58 | INFO     | Progress: 40/60 (P:40 W:0 F:0)
+2026-01-26 02:39:59 | INFO     | Progress: 50/60 (P:50 W:0 F:0)
+2026-01-26 02:39:59 | INFO     | Progress: 60/60 (P:60 W:0 F:0)
+2026-01-26 02:39:59 | INFO     | Auditing pressure: 60 files using 16 workers
+2026-01-26 02:40:00 | INFO     | Progress: 10/60 (P:10 W:0 F:0)
+2026-01-26 02:40:00 | INFO     | Progress: 20/60 (P:20 W:0 F:0)
+2026-01-26 02:40:00 | INFO     | Progress: 30/60 (P:30 W:0 F:0)
+2026-01-26 02:40:01 | INFO     | Progress: 40/60 (P:40 W:0 F:0)
+2026-01-26 02:40:01 | INFO     | Progress: 50/60 (P:50 W:0 F:0)
+2026-01-26 02:40:01 | INFO     | Progress: 60/60 (P:60 W:0 F:0)
+2026-01-26 02:40:01 | INFO     | 
+============================================================
+2026-01-26 02:40:01 | INFO     | FINAL SUMMARY
+2026-01-26 02:40:01 | INFO     | LAND: Found 60/60 | Pass: 60 | Warn: 0 | Fail: 0
+2026-01-26 02:40:01 | INFO     | SUPPLEMENT: Found 60/60 | Pass: 60 | Warn: 0 | Fail: 0
+2026-01-26 02:40:01 | INFO     | PRESSURE: Found 60/60 | Pass: 60 | Warn: 0 | Fail: 0
+2026-01-26 02:40:01 | INFO     | VERDICT: PASS (Green)

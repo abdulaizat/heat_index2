@@ -1,0 +1,10 @@
+nohup: ignoring input
+--- STARTING SANITIZATION PROTOCOL ---
+Scanning: /mnt/AizatDrive/MOD11A1
+Scanning: /mnt/AizatDrive/MOD13A2
+--------------------------------------------------
+SCAN COMPLETE.
+Total Files Scanned: 6194
+Corrupt Files Removed: 0
+Moved to: /mnt/AizatDrive/_CORRUPT_FILES_QUARANTINE
+--------------------------------------------------

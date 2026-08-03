@@ -1,0 +1,11 @@
+{
+  "sha1": "2a9bfc920fc2efc1bcff2bfefdba3dfc25ebff05",
+  "source": "CLAUDE.md",
+  "synced_at": "2026-06-04T03:19:04.020316+00:00",
+  "targets": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "GEMINI.md",
+    "ANTIGRAVITY.md"
+  ]
+}

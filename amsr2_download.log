@@ -1,0 +1,12 @@
+nohup: ignoring input
+
+📍 Domain Configuration: Malaysia
+   North: 7.8°N
+   West:  99.3°E
+   South: 0.6°N
+   East:  119.8°E
+   Coverage: 7.2°N-S, 20.5°E-W
+   Area: 147.6 square degrees
+2025-12-17 21:27:41,549 - INFO - Running Pre-flight check: TCP Connect to ftp.gportal.jaxa.jp:2051...
+2025-12-17 21:27:51,567 - CRITICAL - Pre-flight FAILED: Connection Timed Out to ftp.gportal.jaxa.jp:2051
+2025-12-17 21:27:51,568 - CRITICAL - DIAGNOSIS: Your firewall is likely blocking outbound traffic on this port.

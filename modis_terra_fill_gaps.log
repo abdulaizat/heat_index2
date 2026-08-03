@@ -1,0 +1,60 @@
+nohup: ignoring input
+INFO:root:--- INITIATING TARGETED RECOVERY FOR OCT 2022 ---
+INFO:earthaccess.auth:You're now authenticated with NASA Earthdata Login
+INFO:earthaccess.api:Granules found: 54
+INFO:root:Found 54 granules for the gap period.
+INFO:earthaccess.store: Getting 54 granules, approx download size: 0.02 GB
+INFO:earthaccess.store:File MOD11A1.A2022274.h28v08.061.2022275103832.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022274.h27v08.061.2022275103826.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022274.h29v08.061.2022275103826.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022275.h29v08.061.2022276104009.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022275.h28v08.061.2022276103907.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022275.h27v08.061.2022276103918.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022276.h28v08.061.2022277104137.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022276.h27v08.061.2022277104121.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022276.h29v08.061.2022277104127.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022277.h29v08.061.2022278173934.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022277.h27v08.061.2022278173925.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022277.h28v08.061.2022278173908.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022278.h27v08.061.2022279105022.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022278.h28v08.061.2022279105049.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022278.h29v08.061.2022279105113.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022279.h28v08.061.2022280110618.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022279.h27v08.061.2022280110619.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022279.h29v08.061.2022280110649.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022280.h28v08.061.2022281142310.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022280.h29v08.061.2022281142321.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022280.h27v08.061.2022281142322.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022281.h29v08.061.2022282161440.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022281.h27v08.061.2022282161433.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022281.h28v08.061.2022282161421.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022282.h28v08.061.2022283103904.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022282.h29v08.061.2022283103848.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022282.h27v08.061.2022283103845.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022283.h28v08.061.2022291055244.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022283.h27v08.061.2022291055305.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022283.h29v08.061.2022291055341.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022297.h27v08.061.2022302181236.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022297.h28v08.061.2022302181302.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022297.h29v08.061.2022302181334.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022298.h28v08.061.2022305020417.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022298.h27v08.061.2022305020417.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022298.h29v08.061.2022305020454.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022299.h27v08.061.2022305030804.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022299.h29v08.061.2022305030811.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022299.h28v08.061.2022305030804.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022300.h27v08.061.2022305055102.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022300.h29v08.061.2022305055055.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022300.h28v08.061.2022305055100.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022301.h29v08.061.2022305060446.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022301.h28v08.061.2022305060449.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022301.h27v08.061.2022305060446.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022302.h27v08.061.2022305081304.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022302.h29v08.061.2022305081308.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022302.h28v08.061.2022305081252.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022303.h27v08.061.2022305083103.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022303.h28v08.061.2022305083114.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022303.h29v08.061.2022305083115.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022304.h29v08.061.2022305225532.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022304.h28v08.061.2022305225530.hdf already downloaded
+INFO:earthaccess.store:File MOD11A1.A2022304.h27v08.061.2022305225509.hdf already downloaded
